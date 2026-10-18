@@ -371,3 +371,10 @@ on every later shot of the same character so the face stays locked.
 |---|---|---|
 | G4 key portrait | Gilgamesh | `04291612-5755-4a02-8710-c22bedbc11d2` |
 | E6 key portrait | Enkidu | `e2279002-55b1-4e61-88d4-93121d822dc3` |
+| G1 front full-body | Gilgamesh | `cdfe2364-bfc8-4902-ab62-e68b2386ff1c` |
+| E1 front full-body, wild | Enkidu | `374375f6-ce47-4453-abc0-e71bcdcf098b` |
+| E5 front full-body, clothed | Enkidu | `63498e0b-49fa-4577-8d9f-6fecc2d97bce` |
+| D1 brothers on the wall | both | `4d8997a4-ad13-4ec0-bb8d-2d6fdd27e058` |
+
+G1, E1, E5 and D1 were generated with the key portraits passed as image references.
+Full-body shots ran at 3:4, the two-shot at 21:9.
