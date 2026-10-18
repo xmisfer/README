@@ -397,7 +397,9 @@ on every later shot of the same character so the face stays locked.
 | E8 hands and snare macro | Enkidu | `7192a739-4731-46bf-853a-ffddf314dd00` |
 | E9 the deathbed | Enkidu | `2cb791af-f414-4129-ac28-5ba1f5c3d8a4` |
 | D2 the Cedar Forest | both | `0b1c9676-e699-4a49-89d1-468580071452` |
-| D3 the Bull of Heaven | both | `bebbcfab-bc6a-4dae-b7d6-f1761fbd1f31` |
+| D3 the Bull of Heaven (first take) | both | `bebbcfab-bc6a-4dae-b7d6-f1761fbd1f31` |
+| D3 rerun A: the kill, king on the bull's shoulder | both | `3d35cc3d-9d31-4102-9bec-0b1761880414` |
+| D3 rerun B: the charge, companion on the tail | both | `54649496-39e2-4c5a-8c6f-28f5cb84bd87` |
 
 Every shot after the two key portraits was generated with the approved portraits
 passed as image references. Wild-phase Enkidu shots (E2, E3, E4) also reference the
