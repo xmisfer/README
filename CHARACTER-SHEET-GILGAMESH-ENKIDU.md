@@ -358,3 +358,16 @@ Run G4 and E6 with identical lamp placement, identical camera height, identical 
 | Weapon | bronze axe, lapis dagger, bow | bronze-shod cedar club, later axe |
 | Palette | ochre, red, lapis, gold | cream, hide brown, mud, green |
 | Key light | warm oil lamp, Rembrandt | overcast softbox or lamp, open |
+
+---
+
+## 5. Generated key portraits (Higgsfield)
+
+Both key portraits (G4 and E6) were run through the Higgsfield character-sheet
+workflow on Nano Banana Pro at 2K, 3:4. Reuse these job IDs as `image_references`
+on every later shot of the same character so the face stays locked.
+
+| Shot | Character | Higgsfield job ID |
+|---|---|---|
+| G4 key portrait | Gilgamesh | `04291612-5755-4a02-8710-c22bedbc11d2` |
+| E6 key portrait | Enkidu | `e2279002-55b1-4e61-88d4-93121d822dc3` |
