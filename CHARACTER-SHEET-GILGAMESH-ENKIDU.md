@@ -376,5 +376,30 @@ on every later shot of the same character so the face stays locked.
 | E5 front full-body, clothed | Enkidu | `63498e0b-49fa-4577-8d9f-6fecc2d97bce` |
 | D1 brothers on the wall | both | `4d8997a4-ad13-4ec0-bb8d-2d6fdd27e058` |
 
-G1, E1, E5 and D1 were generated with the key portraits passed as image references.
-Full-body shots ran at 3:4, the two-shot at 21:9.
+| G2 back full-body | Gilgamesh | `a41c936a-1938-45c2-9a9f-7d1531f72d76` |
+| G3 side profile full-body | Gilgamesh | `f4f77a1d-e0f2-45c0-b74b-7b222db4271d` |
+| G5 expression: contempt | Gilgamesh | `dbd6f305-7e9e-4782-bd1a-20ad7dcc1411` |
+| G5 expression: laugh | Gilgamesh | `33837d80-2691-46e5-b4a0-5a8494560417` |
+| G5 expression: fury | Gilgamesh | `ac506d60-0ae9-4526-8654-a7ed215bde7e` |
+| G5 expression: grief | Gilgamesh | `e9c3af9b-6b2b-45d4-8059-9a5eac06dbb8` |
+| G5 expression: resignation | Gilgamesh | `cf7a9983-e152-45ed-978e-d031c4423337` |
+| G6 hands and axe macro | Gilgamesh | `1ff23ab8-51f5-4a0c-b79a-9e31faca553e` |
+| G7 fight at the gate | both | `7c80507e-f51f-4024-b258-b8ef8d999750` |
+| G8 the wanderer | Gilgamesh | `4865699b-fc58-4bc6-bd72-fdd4dfe52e40` |
+| E2 back full-body, wild | Enkidu | `fbc5f4f9-205d-4b0a-941e-bb2a600bd5ed` |
+| E3 side profile, wild | Enkidu | `b1265660-6929-4df3-85e8-93f4c68fca4a` |
+| E4 portrait, wild | Enkidu | `e46cc9b0-271e-4940-b72d-1ea482e363f3` |
+| E7 expression: wonder | Enkidu | `30e226f2-07e8-4300-bb31-ff02bd461bff` |
+| E7 expression: laugh | Enkidu | `b89a7316-5e60-47e3-b7fc-fa396b1a82ef` |
+| E7 expression: snarl | Enkidu | `ccc59a59-f1cd-423b-a746-8c6464a32fc8` |
+| E7 expression: fear | Enkidu | `40f0a86e-4eba-4b49-b877-b92eeea7133c` |
+| E7 expression: deathbed | Enkidu | `06a5a0db-fd5e-41f3-87d3-d5568aa472c9` |
+| E8 hands and snare macro | Enkidu | `7192a739-4731-46bf-853a-ffddf314dd00` |
+| E9 the deathbed | Enkidu | `2cb791af-f414-4129-ac28-5ba1f5c3d8a4` |
+| D2 the Cedar Forest | both | `0b1c9676-e699-4a49-89d1-468580071452` |
+| D3 the Bull of Heaven | both | `bebbcfab-bc6a-4dae-b7d6-f1761fbd1f31` |
+
+Every shot after the two key portraits was generated with the approved portraits
+passed as image references. Wild-phase Enkidu shots (E2, E3, E4) also reference the
+E1 wild full-body so the matted hair stays consistent. Full-body and portrait shots
+ran at 3:4, macros at 3:2, medium late-arc shots at 16:9, wide two-shots at 21:9.
