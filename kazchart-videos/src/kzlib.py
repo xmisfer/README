@@ -133,7 +133,8 @@ def _trim(a, thr=.008):
     idx = np.where(np.abs(a) > thr)[0]
     return a if not len(idx) else a[max(0, idx[0] - int(.03 * SR)): idx[-1] + int(.08 * SR)]
 
-def build(story, tts_dir, out, voice, lang, speed=.94, width=1920, height=1080, gaps=(.42, .85, .28), lead=.5, tokens=None):
+def build(story, tts_dir, out, voice, lang, speed=.94, width=1920, height=1080, gaps=(.42, .85, .28), lead=.5, tokens=None, say=None):
+    """say: {written word: spoken spelling}, applied to the voiceover only; captions and timing keep the written line."""
     from kokoro_onnx import Kokoro
     kok = Kokoro(os.path.join(tts_dir, "kokoro.onnx"), os.path.join(tts_dir, "voices.bin"))
     S = story.S
@@ -147,7 +148,9 @@ def build(story, tts_dir, out, voice, lang, speed=.94, width=1920, height=1080, 
         for li, line in enumerate(s["lines"]):
             if li:
                 audio.append(np.zeros(int(line_gap * SR), np.float32)); cur += line_gap
-            a, sr = kok.create(line, voice=voice, speed=speed, lang=lang)
+            spoken = line
+            for w, sp in (say or {}).items(): spoken = spoken.replace(w, sp)
+            a, sr = kok.create(spoken, voice=voice, speed=speed, lang=lang)
             a = _trim(a.astype(np.float32)); d = len(a) / SR
             s["ph"].append((cur, d)); audio.append(a); cur += d
     tail = S[-1].get("tail", 2.0)

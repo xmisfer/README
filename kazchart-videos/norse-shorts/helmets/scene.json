@@ -1,0 +1,368 @@
+{
+ "preset": "abyss",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grain": 0.05,
+ "tokens": {
+  "hl": "#7fd4ff",
+  "creature": {
+   "whale": [
+    "#8f8e8a",
+    "#6f6e6a",
+    "#b5b4ae"
+   ],
+   "fish": [
+    "#7f97a6",
+    "#c3d2da",
+    "#4c606c"
+   ],
+   "shark": [
+    "#5d6872",
+    "#d9dcdc",
+    "#2b3138"
+   ],
+   "blob": [
+    "none",
+    "none",
+    "none"
+   ]
+  }
+ },
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 3.35,
+   "bg": {
+    "top": "#050a14",
+    "bottom": "#16283c",
+    "rays": false,
+    "particleCount": 45
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.1
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g stroke=\"#7fd4ff\" stroke-width=\"3.5\" fill=\"none\" stroke-linecap=\"round\" opacity=\"0.55\"><line x1=\"600\" y1=\"8\" x2=\"1320\" y2=\"8\"/><line x1=\"600\" y1=\"68\" x2=\"1320\" y2=\"68\"/><path transform=\"translate(640 18)\" d=\"M0,0 L0,40 M0,10 L14,20 L0,30\"/><path transform=\"translate(678 18)\" d=\"M0,40 L0,0 L16,12 L16,40\"/><path transform=\"translate(716 18)\" d=\"M0,40 L0,0 L14,10 L0,20 L14,40\"/><path transform=\"translate(754 18)\" d=\"M0,40 L0,0 L16,12 L16,40\"/><path transform=\"translate(792 18)\" d=\"M0,0 L0,40 M16,0 L16,40 M0,12 L16,28\"/><path transform=\"translate(830 18)\" d=\"M0,0 L0,40 M16,0 L16,40 M0,12 L16,28\"/><path transform=\"translate(868 18)\" d=\"M0,0 L0,40 M16,0 L16,40 M0,12 L16,28\"/><path transform=\"translate(906 18)\" d=\"M8,0 L8,40 M0,10 L16,30\"/><path transform=\"translate(944 18)\" d=\"M0,0 L0,40 M0,4 L14,14 M0,16 L14,26\"/><path transform=\"translate(982 18)\" d=\"M0,40 L0,0 L16,12 L16,40\"/><path transform=\"translate(1020 18)\" d=\"M0,0 L0,40 M16,0 L16,40 M0,12 L16,28\"/><path transform=\"translate(1058 18)\" d=\"M0,0 L0,40 M0,8 L16,0 M0,20 L16,12\"/><path transform=\"translate(1096 18)\" d=\"M8,0 L8,40 M0,10 L16,30\"/><path transform=\"translate(1134 18)\" d=\"M8,0 L8,40 M0,10 L16,30\"/><path transform=\"translate(1172 18)\" d=\"M0,0 L0,40 M0,8 L16,0 M0,20 L16,12\"/><path transform=\"translate(1210 18)\" d=\"M0,0 L0,40 M16,0 L16,40 M0,12 L16,28\"/><path transform=\"translate(1248 18)\" d=\"M0,40 L0,0 L14,10 L0,20 L14,40\"/><path transform=\"translate(1286 18)\" d=\"M0,0 L0,40 M0,4 L14,14 M0,16 L14,26\"/></g>"
+    },
+    {
+     "type": "svg",
+     "markup": "<g stroke=\"#7fd4ff\" stroke-width=\"3.5\" fill=\"none\" stroke-linecap=\"round\" opacity=\"0.55\"><line x1=\"600\" y1=\"1002\" x2=\"1320\" y2=\"1002\"/><line x1=\"600\" y1=\"1062\" x2=\"1320\" y2=\"1062\"/><path transform=\"translate(640 1012)\" d=\"M0,0 L0,40 M0,8 L16,0 M0,20 L16,12\"/><path transform=\"translate(678 1012)\" d=\"M0,40 L0,0 L16,12 L16,40\"/><path transform=\"translate(716 1012)\" d=\"M0,40 L0,0 L16,12 L16,40\"/><path transform=\"translate(754 1012)\" d=\"M0,0 L16,20 L0,40 M16,0 L0,20 L16,40\"/><path transform=\"translate(792 1012)\" d=\"M0,0 L0,40 M0,10 L14,20 L0,30\"/><path transform=\"translate(830 1012)\" d=\"M0,40 L0,0 L14,10 L0,20 L14,40\"/><path transform=\"translate(868 1012)\" d=\"M0,40 L0,0 L14,10 L0,20 L14,40\"/><path transform=\"translate(906 1012)\" d=\"M0,0 L0,40 M0,4 L14,14 M0,16 L14,26\"/><path transform=\"translate(944 1012)\" d=\"M0,0 L0,40 M0,8 L16,0 M0,20 L16,12\"/><path transform=\"translate(982 1012)\" d=\"M0,0 L0,40 M0,10 L14,20 L0,30\"/><path transform=\"translate(1020 1012)\" d=\"M8,0 L8,40 M0,10 L16,30\"/><path transform=\"translate(1058 1012)\" d=\"M8,0 L8,40 M0,10 L16,30\"/><path transform=\"translate(1096 1012)\" d=\"M0,0 L16,20 L0,40 M16,0 L0,20 L16,40\"/><path transform=\"translate(1134 1012)\" d=\"M0,0 L0,40 M16,0 L16,40 M0,12 L16,28\"/><path transform=\"translate(1172 1012)\" d=\"M0,40 L0,0 L14,10 L0,20 L14,40\"/><path transform=\"translate(1210 1012)\" d=\"M0,0 L0,40 M0,8 L16,0 M0,20 L16,12\"/><path transform=\"translate(1248 1012)\" d=\"M0,0 L0,40 M0,8 L16,0 M0,20 L16,12\"/><path transform=\"translate(1286 1012)\" d=\"M0,0 L16,20 L0,40 M16,0 L0,20 L16,40\"/></g>"
+    },
+    {
+     "type": "svg",
+     "markup": "<defs><linearGradient id=\"aur\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#57e39a\" stop-opacity=\"0\"/><stop offset=\".55\" stop-color=\"#57e39a\" stop-opacity=\".9\"/><stop offset=\"1\" stop-color=\"#3fb4e0\" stop-opacity=\"0\"/></linearGradient></defs><path d=\"M560,140 Q620,80 680,140 Q740,80 800,140 Q860,80 920,140 Q980,80 1040,140 Q1100,80 1160,140 Q1220,80 1280,140 Q1340,80 1400,140 L1400,300 L560,300 Z\" fill=\"url(#aur)\" opacity=\"0.4\"/><path d=\"M560,230 Q620,198 680,230 Q740,198 800,230 Q860,198 920,230 Q980,198 1040,230 Q1100,198 1160,230 Q1220,198 1280,230 Q1340,198 1400,230 L1400,390 L560,390 Z\" fill=\"url(#aur)\" opacity=\"0.30000000000000004\"/><path d=\"M560,320 Q620,311 680,320 Q740,311 800,320 Q860,311 920,320 Q980,311 1040,320 Q1100,311 1160,320 Q1220,311 1280,320 Q1340,311 1400,320 L1400,480 L560,480 Z\" fill=\"url(#aur)\" opacity=\"0.2\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(960 660) scale(1.0)\"><path d=\"M-130,-40 C-220,-60 -250,-170 -210,-260 C-200,-180 -170,-120 -110,-90\" fill=\"#efe6cf\"/><path d=\"M130,-40 C220,-60 250,-170 210,-260 C200,-180 170,-120 110,-90\" fill=\"#efe6cf\"/><path fill=\"#6f7780\" d=\"M-150,30 C-150,-150 150,-150 150,30 Z\"/><rect x=\"-160\" y=\"20\" width=\"320\" height=\"34\" rx=\"8\" fill=\"#454c54\"/><path fill=\"#000\" opacity=\".2\" d=\"M40,-118 C110,-100 150,-50 150,30 L90,30 C100,-30 80,-80 40,-118 Z\"/></g>"
+    },
+    {
+     "type": "caption",
+     "text": "vikings never wore",
+     "x": 960,
+     "size": 48,
+     "t0": 0.3,
+     "y": 200
+    },
+    {
+     "type": "caption",
+     "text": "*horned* helmets",
+     "x": 960,
+     "size": 58,
+     "t0": 1.75,
+     "y": 275
+    },
+    {
+     "type": "redx",
+     "x": 960,
+     "y": 560,
+     "size": 210,
+     "width": 12,
+     "t0": 2.5
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 3.35,
+   "end": 10.24,
+   "bg": {
+    "top": "#0c0a0a",
+    "bottom": "#241a14",
+    "rays": false,
+    "particleCount": 25,
+    "spotlight": {
+     "x": 960,
+     "w": 340
+    }
+   },
+   "camera": {
+    "zoomFrom": 1.05,
+    "zoomTo": 1.15
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(960 560) scale(1.3)\"><path fill=\"#6f7780\" d=\"M-150,40 C-150,-170 150,-170 150,40 Z\"/><path d=\"M0,-130 L0,40\" stroke=\"#454c54\" stroke-width=\"16\"/><path d=\"M-150,-20 L150,-20\" stroke=\"#454c54\" stroke-width=\"12\"/><path fill=\"#454c54\" d=\"M-120,30 L120,30 L120,48 C120,110 70,120 40,96 L0,60 L-40,96 C-70,120 -120,110 -120,48 Z\"/><ellipse cx=\"-58\" cy=\"62\" rx=\"34\" ry=\"24\" fill=\"#05090d\"/><ellipse cx=\"58\" cy=\"62\" rx=\"34\" ry=\"24\" fill=\"#05090d\"/><path fill=\"#000\" opacity=\".2\" d=\"M40,-128 C110,-110 150,-60 150,40 L100,40 C110,-30 90,-90 40,-128 Z\"/></g>"
+    },
+    {
+     "type": "tag",
+     "text": "Norway \u00b7 1943",
+     "x": 690,
+     "y": 90,
+     "t0": 4.51
+    },
+    {
+     "type": "namecard",
+     "title": "GJERMUNDBU HELMET",
+     "sub": "10th century \u00b7 iron",
+     "x": 960,
+     "y": 860,
+     "w": 500,
+     "t0": 0.4
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 10.24,
+   "end": 15.33,
+   "bg": {
+    "top": "#0c0a0a",
+    "bottom": "#241a14",
+    "rays": false,
+    "particleCount": 25,
+    "spotlight": {
+     "x": 960,
+     "w": 340
+    }
+   },
+   "camera": {
+    "zoomFrom": 1.15,
+    "zoomTo": 1.3,
+    "y": 600
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(960 560) scale(1.3)\"><path fill=\"#6f7780\" d=\"M-150,40 C-150,-170 150,-170 150,40 Z\"/><path d=\"M0,-130 L0,40\" stroke=\"#454c54\" stroke-width=\"16\"/><path d=\"M-150,-20 L150,-20\" stroke=\"#454c54\" stroke-width=\"12\"/><path fill=\"#454c54\" d=\"M-120,30 L120,30 L120,48 C120,110 70,120 40,96 L0,60 L-40,96 C-70,120 -120,110 -120,48 Z\"/><ellipse cx=\"-58\" cy=\"62\" rx=\"34\" ry=\"24\" fill=\"#05090d\"/><ellipse cx=\"58\" cy=\"62\" rx=\"34\" ry=\"24\" fill=\"#05090d\"/><path fill=\"#000\" opacity=\".2\" d=\"M40,-128 C110,-110 150,-60 150,40 L100,40 C110,-30 90,-90 40,-128 Z\"/></g>"
+    },
+    {
+     "type": "caption",
+     "text": "*no* horns",
+     "x": 960,
+     "size": 64,
+     "t0": 0.18,
+     "y": 230
+    },
+    {
+     "type": "circle",
+     "x": 960,
+     "y": 640,
+     "rx": 200,
+     "ry": 90,
+     "t0": 3.57
+    }
+   ]
+  },
+  {
+   "start": 15.33,
+   "end": 19.28,
+   "bg": {
+    "mode": "black"
+   },
+   "camera": {},
+   "elements": [
+    {
+     "type": "caption",
+     "text": "where did the",
+     "x": 960,
+     "size": 48,
+     "t0": 0.18,
+     "y": 440
+    },
+    {
+     "type": "caption",
+     "text": "*horns* come from?",
+     "x": 960,
+     "size": 48,
+     "t0": 1.24,
+     "t1": 2.4499999999999997,
+     "y": 510
+    },
+    {
+     "type": "stamp",
+     "text": "An opera",
+     "x": 960,
+     "y": 640,
+     "size": 72,
+     "t0": 2.84
+    }
+   ]
+  },
+  {
+   "start": 19.28,
+   "end": 27.03,
+   "bg": {
+    "mode": "paper"
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.06
+   },
+   "elements": [
+    {
+     "type": "doccard",
+     "x": 960,
+     "y": 500,
+     "w": 540,
+     "h": 660,
+     "rotate": -2,
+     "header": "Bayreuth \u00b7 1876",
+     "title": "Der Ring des\nNibelungen",
+     "footer": "Costumes: Carl Emil Doepler",
+     "t0": 0
+    },
+    {
+     "type": "stamp",
+     "text": "Horns added",
+     "x": 960,
+     "y": 890,
+     "size": 50,
+     "t0": 5.45
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 27.03,
+   "end": 35.2,
+   "bg": {
+    "top": "#050a14",
+    "bottom": "#16283c",
+    "rays": false,
+    "particleCount": 45
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<circle cx=\"771\" cy=\"309\" r=\"1.5\" fill=\"#eef4ff\" opacity=\"0.60\"/><circle cx=\"1051\" cy=\"46\" r=\"1.0\" fill=\"#eef4ff\" opacity=\"0.72\"/><circle cx=\"787\" cy=\"139\" r=\"2.4\" fill=\"#eef4ff\" opacity=\"0.54\"/><circle cx=\"1202\" cy=\"272\" r=\"1.9\" fill=\"#eef4ff\" opacity=\"0.38\"/><circle cx=\"1057\" cy=\"487\" r=\"1.7\" fill=\"#eef4ff\" opacity=\"0.67\"/><circle cx=\"1083\" cy=\"45\" r=\"2.1\" fill=\"#eef4ff\" opacity=\"0.60\"/><circle cx=\"817\" cy=\"27\" r=\"2.2\" fill=\"#eef4ff\" opacity=\"0.54\"/><circle cx=\"1118\" cy=\"493\" r=\"2.0\" fill=\"#eef4ff\" opacity=\"0.76\"/><circle cx=\"884\" cy=\"450\" r=\"1.6\" fill=\"#eef4ff\" opacity=\"0.77\"/><circle cx=\"1233\" cy=\"64\" r=\"1.2\" fill=\"#eef4ff\" opacity=\"0.41\"/><circle cx=\"1295\" cy=\"250\" r=\"1.9\" fill=\"#eef4ff\" opacity=\"0.45\"/><circle cx=\"965\" cy=\"222\" r=\"1.5\" fill=\"#eef4ff\" opacity=\"0.59\"/><circle cx=\"1021\" cy=\"507\" r=\"2.0\" fill=\"#eef4ff\" opacity=\"0.76\"/><circle cx=\"1217\" cy=\"555\" r=\"1.9\" fill=\"#eef4ff\" opacity=\"0.38\"/><circle cx=\"1220\" cy=\"541\" r=\"2.3\" fill=\"#eef4ff\" opacity=\"0.58\"/><circle cx=\"1114\" cy=\"126\" r=\"2.2\" fill=\"#eef4ff\" opacity=\"0.59\"/><circle cx=\"805\" cy=\"45\" r=\"2.2\" fill=\"#eef4ff\" opacity=\"0.79\"/><circle cx=\"664\" cy=\"450\" r=\"1.6\" fill=\"#eef4ff\" opacity=\"0.38\"/><circle cx=\"812\" cy=\"433\" r=\"2.2\" fill=\"#eef4ff\" opacity=\"0.32\"/><circle cx=\"1042\" cy=\"35\" r=\"2.0\" fill=\"#eef4ff\" opacity=\"0.47\"/><circle cx=\"1234\" cy=\"549\" r=\"1.7\" fill=\"#eef4ff\" opacity=\"0.80\"/><circle cx=\"823\" cy=\"52\" r=\"1.8\" fill=\"#eef4ff\" opacity=\"0.32\"/><circle cx=\"742\" cy=\"234\" r=\"1.9\" fill=\"#eef4ff\" opacity=\"0.38\"/><circle cx=\"631\" cy=\"487\" r=\"1.4\" fill=\"#eef4ff\" opacity=\"0.78\"/><circle cx=\"1246\" cy=\"218\" r=\"1.6\" fill=\"#eef4ff\" opacity=\"0.56\"/><circle cx=\"1064\" cy=\"338\" r=\"1.8\" fill=\"#eef4ff\" opacity=\"0.61\"/><circle cx=\"1277\" cy=\"289\" r=\"1.6\" fill=\"#eef4ff\" opacity=\"0.66\"/><circle cx=\"771\" cy=\"176\" r=\"2.4\" fill=\"#eef4ff\" opacity=\"0.56\"/><circle cx=\"995\" cy=\"16\" r=\"1.6\" fill=\"#eef4ff\" opacity=\"0.59\"/><circle cx=\"614\" cy=\"349\" r=\"1.9\" fill=\"#eef4ff\" opacity=\"0.33\"/><circle cx=\"1052\" cy=\"266\" r=\"2.0\" fill=\"#eef4ff\" opacity=\"0.48\"/><circle cx=\"1109\" cy=\"416\" r=\"1.0\" fill=\"#eef4ff\" opacity=\"0.33\"/><circle cx=\"1087\" cy=\"540\" r=\"1.4\" fill=\"#eef4ff\" opacity=\"0.53\"/><circle cx=\"1027\" cy=\"186\" r=\"1.5\" fill=\"#eef4ff\" opacity=\"0.46\"/><circle cx=\"866\" cy=\"338\" r=\"1.4\" fill=\"#eef4ff\" opacity=\"0.49\"/><circle cx=\"1156\" cy=\"25\" r=\"1.8\" fill=\"#eef4ff\" opacity=\"0.67\"/><circle cx=\"823\" cy=\"132\" r=\"2.1\" fill=\"#eef4ff\" opacity=\"0.42\"/><circle cx=\"735\" cy=\"249\" r=\"2.0\" fill=\"#eef4ff\" opacity=\"0.35\"/><circle cx=\"832\" cy=\"194\" r=\"2.2\" fill=\"#eef4ff\" opacity=\"0.52\"/><circle cx=\"1216\" cy=\"103\" r=\"1.5\" fill=\"#eef4ff\" opacity=\"0.63\"/><circle cx=\"1237\" cy=\"258\" r=\"1.3\" fill=\"#eef4ff\" opacity=\"0.36\"/><circle cx=\"981\" cy=\"115\" r=\"2.1\" fill=\"#eef4ff\" opacity=\"0.72\"/><circle cx=\"732\" cy=\"163\" r=\"2.1\" fill=\"#eef4ff\" opacity=\"0.62\"/><circle cx=\"1181\" cy=\"200\" r=\"1.2\" fill=\"#eef4ff\" opacity=\"0.45\"/><circle cx=\"1172\" cy=\"159\" r=\"1.5\" fill=\"#eef4ff\" opacity=\"0.51\"/><circle cx=\"902\" cy=\"235\" r=\"2.3\" fill=\"#eef4ff\" opacity=\"0.38\"/><circle cx=\"603\" cy=\"529\" r=\"2.2\" fill=\"#eef4ff\" opacity=\"0.79\"/><circle cx=\"913\" cy=\"533\" r=\"2.3\" fill=\"#eef4ff\" opacity=\"0.41\"/><circle cx=\"1137\" cy=\"470\" r=\"1.9\" fill=\"#eef4ff\" opacity=\"0.56\"/><circle cx=\"808\" cy=\"198\" r=\"1.3\" fill=\"#eef4ff\" opacity=\"0.33\"/><circle cx=\"1024\" cy=\"168\" r=\"2.1\" fill=\"#eef4ff\" opacity=\"0.32\"/><circle cx=\"1251\" cy=\"392\" r=\"2.3\" fill=\"#eef4ff\" opacity=\"0.75\"/><circle cx=\"1248\" cy=\"327\" r=\"1.0\" fill=\"#eef4ff\" opacity=\"0.67\"/><circle cx=\"724\" cy=\"175\" r=\"1.9\" fill=\"#eef4ff\" opacity=\"0.56\"/><circle cx=\"898\" cy=\"526\" r=\"1.9\" fill=\"#eef4ff\" opacity=\"0.47\"/><circle cx=\"782\" cy=\"484\" r=\"1.7\" fill=\"#eef4ff\" opacity=\"0.69\"/><circle cx=\"853\" cy=\"119\" r=\"1.7\" fill=\"#eef4ff\" opacity=\"0.71\"/><circle cx=\"723\" cy=\"445\" r=\"2.3\" fill=\"#eef4ff\" opacity=\"0.70\"/><circle cx=\"1193\" cy=\"14\" r=\"1.9\" fill=\"#eef4ff\" opacity=\"0.73\"/><circle cx=\"636\" cy=\"159\" r=\"1.4\" fill=\"#eef4ff\" opacity=\"0.56\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(960 600) scale(0.9)\"><path d=\"M-130,-40 C-220,-60 -250,-170 -210,-260 C-200,-180 -170,-120 -110,-90\" fill=\"#efe6cf\"/><path d=\"M130,-40 C220,-60 250,-170 210,-260 C200,-180 170,-120 110,-90\" fill=\"#efe6cf\"/><path fill=\"#6f7780\" d=\"M-150,30 C-150,-150 150,-150 150,30 Z\"/><rect x=\"-160\" y=\"20\" width=\"320\" height=\"34\" rx=\"8\" fill=\"#454c54\"/><path fill=\"#000\" opacity=\".2\" d=\"M40,-118 C110,-100 150,-50 150,30 L90,30 C100,-30 80,-80 40,-118 Z\"/></g>"
+    },
+    {
+     "type": "caption",
+     "text": "the *twist*",
+     "x": 960,
+     "size": 58,
+     "t0": 0.18,
+     "t1": 1.26,
+     "y": 200
+    },
+    {
+     "type": "namecard",
+     "title": "VEKS\u00d8 HELMETS",
+     "sub": "Denmark \u00b7 c. 900 BC",
+     "x": 960,
+     "y": 200,
+     "w": 420,
+     "t0": 2.8
+    },
+    {
+     "type": "bignumber",
+     "from": 0,
+     "to": 1700,
+     "suffix": " yrs",
+     "x": 960,
+     "y": 900,
+     "size": 100,
+     "color": "#eef4ff",
+     "t0": 5.63,
+     "dur": 1.1
+    },
+    {
+     "type": "caption",
+     "text": "*too early*",
+     "x": 960,
+     "size": 44,
+     "t0": 7.6,
+     "y": 990
+    }
+   ]
+  },
+  {
+   "start": 35.2,
+   "end": 40.77,
+   "bg": {
+    "top": "#050a14",
+    "bottom": "#16283c",
+    "rays": false,
+    "particleCount": 45
+   },
+   "camera": {
+    "zoomFrom": 1.06,
+    "zoomTo": 1
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g stroke=\"#7fd4ff\" stroke-width=\"3.5\" fill=\"none\" stroke-linecap=\"round\" opacity=\"0.55\"><line x1=\"600\" y1=\"8\" x2=\"1320\" y2=\"8\"/><line x1=\"600\" y1=\"68\" x2=\"1320\" y2=\"68\"/><path transform=\"translate(640 18)\" d=\"M0,0 L0,40 M0,10 L14,20 L0,30\"/><path transform=\"translate(678 18)\" d=\"M0,40 L0,0 L16,12 L16,40\"/><path transform=\"translate(716 18)\" d=\"M0,40 L0,0 L14,10 L0,20 L14,40\"/><path transform=\"translate(754 18)\" d=\"M0,40 L0,0 L16,12 L16,40\"/><path transform=\"translate(792 18)\" d=\"M0,0 L0,40 M16,0 L16,40 M0,12 L16,28\"/><path transform=\"translate(830 18)\" d=\"M0,0 L0,40 M16,0 L16,40 M0,12 L16,28\"/><path transform=\"translate(868 18)\" d=\"M0,0 L0,40 M16,0 L16,40 M0,12 L16,28\"/><path transform=\"translate(906 18)\" d=\"M8,0 L8,40 M0,10 L16,30\"/><path transform=\"translate(944 18)\" d=\"M0,0 L0,40 M0,4 L14,14 M0,16 L14,26\"/><path transform=\"translate(982 18)\" d=\"M0,40 L0,0 L16,12 L16,40\"/><path transform=\"translate(1020 18)\" d=\"M0,0 L0,40 M16,0 L16,40 M0,12 L16,28\"/><path transform=\"translate(1058 18)\" d=\"M0,0 L0,40 M0,8 L16,0 M0,20 L16,12\"/><path transform=\"translate(1096 18)\" d=\"M8,0 L8,40 M0,10 L16,30\"/><path transform=\"translate(1134 18)\" d=\"M8,0 L8,40 M0,10 L16,30\"/><path transform=\"translate(1172 18)\" d=\"M0,0 L0,40 M0,8 L16,0 M0,20 L16,12\"/><path transform=\"translate(1210 18)\" d=\"M0,0 L0,40 M16,0 L16,40 M0,12 L16,28\"/><path transform=\"translate(1248 18)\" d=\"M0,40 L0,0 L14,10 L0,20 L14,40\"/><path transform=\"translate(1286 18)\" d=\"M0,0 L0,40 M0,4 L14,14 M0,16 L14,26\"/></g>"
+    },
+    {
+     "type": "svg",
+     "markup": "<g stroke=\"#7fd4ff\" stroke-width=\"3.5\" fill=\"none\" stroke-linecap=\"round\" opacity=\"0.55\"><line x1=\"600\" y1=\"1002\" x2=\"1320\" y2=\"1002\"/><line x1=\"600\" y1=\"1062\" x2=\"1320\" y2=\"1062\"/><path transform=\"translate(640 1012)\" d=\"M0,0 L0,40 M0,8 L16,0 M0,20 L16,12\"/><path transform=\"translate(678 1012)\" d=\"M0,40 L0,0 L16,12 L16,40\"/><path transform=\"translate(716 1012)\" d=\"M0,40 L0,0 L16,12 L16,40\"/><path transform=\"translate(754 1012)\" d=\"M0,0 L16,20 L0,40 M16,0 L0,20 L16,40\"/><path transform=\"translate(792 1012)\" d=\"M0,0 L0,40 M0,10 L14,20 L0,30\"/><path transform=\"translate(830 1012)\" d=\"M0,40 L0,0 L14,10 L0,20 L14,40\"/><path transform=\"translate(868 1012)\" d=\"M0,40 L0,0 L14,10 L0,20 L14,40\"/><path transform=\"translate(906 1012)\" d=\"M0,0 L0,40 M0,4 L14,14 M0,16 L14,26\"/><path transform=\"translate(944 1012)\" d=\"M0,0 L0,40 M0,8 L16,0 M0,20 L16,12\"/><path transform=\"translate(982 1012)\" d=\"M0,0 L0,40 M0,10 L14,20 L0,30\"/><path transform=\"translate(1020 1012)\" d=\"M8,0 L8,40 M0,10 L16,30\"/><path transform=\"translate(1058 1012)\" d=\"M8,0 L8,40 M0,10 L16,30\"/><path transform=\"translate(1096 1012)\" d=\"M0,0 L16,20 L0,40 M16,0 L0,20 L16,40\"/><path transform=\"translate(1134 1012)\" d=\"M0,0 L0,40 M16,0 L16,40 M0,12 L16,28\"/><path transform=\"translate(1172 1012)\" d=\"M0,40 L0,0 L14,10 L0,20 L14,40\"/><path transform=\"translate(1210 1012)\" d=\"M0,0 L0,40 M0,8 L16,0 M0,20 L16,12\"/><path transform=\"translate(1248 1012)\" d=\"M0,0 L0,40 M0,8 L16,0 M0,20 L16,12\"/><path transform=\"translate(1286 1012)\" d=\"M0,0 L16,20 L0,40 M16,0 L0,20 L16,40\"/></g>"
+    },
+    {
+     "type": "svg",
+     "markup": "<defs><linearGradient id=\"aur\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#57e39a\" stop-opacity=\"0\"/><stop offset=\".55\" stop-color=\"#57e39a\" stop-opacity=\".9\"/><stop offset=\"1\" stop-color=\"#3fb4e0\" stop-opacity=\"0\"/></linearGradient></defs><path d=\"M560,140 Q620,80 680,140 Q740,80 800,140 Q860,80 920,140 Q980,80 1040,140 Q1100,80 1160,140 Q1220,80 1280,140 Q1340,80 1400,140 L1400,300 L560,300 Z\" fill=\"url(#aur)\" opacity=\"0.4\"/><path d=\"M560,230 Q620,198 680,230 Q740,198 800,230 Q860,198 920,230 Q980,198 1040,230 Q1100,198 1160,230 Q1220,198 1280,230 Q1340,198 1400,230 L1400,390 L560,390 Z\" fill=\"url(#aur)\" opacity=\"0.30000000000000004\"/><path d=\"M560,320 Q620,311 680,320 Q740,311 800,320 Q860,311 920,320 Q980,311 1040,320 Q1100,311 1160,320 Q1220,311 1280,320 Q1340,311 1400,320 L1400,480 L560,480 Z\" fill=\"url(#aur)\" opacity=\"0.2\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<polygon fill=\"#1b2c40\" points=\"560,860 700,600 820,740 960,530 1110,720 1230,580 1380,860\"/><polygon fill=\"#dfe9f0\" opacity=\".85\" points=\"925,575 960,530 995,578 975,570 960,588 945,568\"/><polygon fill=\"#dfe9f0\" opacity=\".8\" points=\"1205,615 1230,580 1256,616 1230,604\"/><polygon fill=\"#dfe9f0\" opacity=\".8\" points=\"678,632 700,600 722,632 700,620\"/><polygon fill=\"#0e1824\" points=\"560,860 760,710 880,800 1040,670 1200,790 1380,740 1380,1260 560,1260\"/><rect x=\"-600\" y=\"860\" width=\"3120\" height=\"900\" fill=\"#0b141e\"/>"
+    },
+    {
+     "type": "caption",
+     "text": "from a *costume*",
+     "x": 960,
+     "size": 50,
+     "t0": 2.03,
+     "y": 300
+    },
+    {
+     "type": "caption",
+     "text": "department",
+     "x": 960,
+     "size": 50,
+     "t0": 2.57,
+     "y": 370
+    },
+    {
+     "type": "tag",
+     "text": "History Lab",
+     "x": 690,
+     "y": 990,
+     "t0": 3.6687916666666665
+    },
+    {
+     "type": "caption",
+     "text": "*follow* for more",
+     "x": 960,
+     "size": 40,
+     "t0": 3.8687916666666666,
+     "y": 920
+    }
+   ],
+   "fadeOut": 1.4
+  }
+ ]
+}

@@ -13,6 +13,9 @@ Source files for the videos made with the KazChart skill (`.claude/skills/kazcha
 | `greek-shorts/medusa/` | History Lab: Medusa wasn't born a monster | 9:16, 0:39 | bm_george |
 | `greek-shorts/pandora/` | History Lab: Pandora never had a box | 9:16, 0:44 | bm_george |
 | `greek-shorts/achilles/` | History Lab: Achilles' heel isn't in the Iliad | 9:16, 0:46 | bm_george |
+| `norse-shorts/helmets/` | History Lab: Vikings never wore horned helmets | 9:16, 0:41 | bm_george |
+| `norse-shorts/loki/` | History Lab: Loki isn't Thor's brother | 9:16, 0:47 | bm_george |
+| `norse-shorts/ragnarok/` | History Lab: In Norse mythology, the gods lose | 9:16, 0:48 | bm_george |
 
 Each folder has `scene.json` (what the engine renders), `script.txt` (the narration) and `upload-notes.md` (titles, description, chapters and a fact list). `essex/` also has the thumbnail and its scene (`thumb.json`).
 
@@ -26,4 +29,4 @@ python3 mix.py out/indy             # drone + impact hits mixed under the voice 
 node ../../.claude/skills/kazchart-skill/scripts/render.mjs out/indy/scene.json out/indy/video.mp4 --audio out/indy/mix.wav
 ```
 
-`essex.py` is the original standalone build of the long Essex video. `short_essex.py` and `indy.py` use the shared helpers in `kzlib.py`: ship, cruiser, submarine, whaleboat and swimmer art, Kokoro voiceover timing and scene output. `egypt_shorts.py` builds the three Egypt Shorts (`python3 egypt_shorts.py TTS out cleopatra`), with desert, pyramid, scales, heart, feather and skull art and gold highlights; their shared upload notes are in `egypt-shorts/upload-notes.md`. `greek_shorts.py` builds the Greek myth Shorts the same way (temple, Medusa, jar, helmet, foot and Greek key art, orange highlights), and `frames.mjs` renders single frames at chosen times for checking shots. To try another voice, change `voice=` in the `build(...)` call (`python3 voices.py TTS .` writes a sample reel of eight voices). `still.mjs` renders one frame to PNG, which is how the thumbnail was made.
+`essex.py` is the original standalone build of the long Essex video. `short_essex.py` and `indy.py` use the shared helpers in `kzlib.py`: ship, cruiser, submarine, whaleboat and swimmer art, Kokoro voiceover timing and scene output. `egypt_shorts.py` builds the three Egypt Shorts (`python3 egypt_shorts.py TTS out cleopatra`), with desert, pyramid, scales, heart, feather and skull art and gold highlights; their shared upload notes are in `egypt-shorts/upload-notes.md`. `greek_shorts.py` builds the Greek myth Shorts the same way (temple, Medusa, jar, helmet, foot and Greek key art, orange highlights), and `frames.mjs` renders single frames at chosen times for checking shots. `norse_shorts.py` builds the Norse Shorts (aurora, mountains, runes, helmets, Sleipnir, Fenrir, the world serpent, fire), and its `SAY` table gives the voice phonetic spellings for Norse names; `build(..., say=...)` applies them to the voiceover only. To try another voice, change `voice=` in the `build(...)` call (`python3 voices.py TTS .` writes a sample reel of eight voices). `still.mjs` renders one frame to PNG, which is how the thumbnail was made.
