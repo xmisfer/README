@@ -1,0 +1,454 @@
+{
+ "preset": "abyss",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grain": 0.05,
+ "tokens": {
+  "hl": "#e8b931",
+  "creature": {
+   "whale": [
+    "#8f8e8a",
+    "#6f6e6a",
+    "#b5b4ae"
+   ],
+   "fish": [
+    "#7f97a6",
+    "#c3d2da",
+    "#4c606c"
+   ],
+   "shark": [
+    "#5d6872",
+    "#d9dcdc",
+    "#2b3138"
+   ],
+   "blob": [
+    "#cbb084",
+    "#cbb084",
+    "#cbb084"
+   ]
+  }
+ },
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 6.09,
+   "bg": {
+    "top": "#08111f",
+    "bottom": "#2c3a57",
+    "rays": false,
+    "particleCount": 22
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08,
+    "y": 700
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<circle cx=\"770\" cy=\"73\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.34\"/><circle cx=\"648\" cy=\"255\" r=\"2.5\" fill=\"#f4efe0\" opacity=\"0.69\"/><circle cx=\"1151\" cy=\"145\" r=\"1.9\" fill=\"#f4efe0\" opacity=\"0.40\"/><circle cx=\"724\" cy=\"75\" r=\"1.3\" fill=\"#f4efe0\" opacity=\"0.76\"/><circle cx=\"1197\" cy=\"502\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.36\"/><circle cx=\"823\" cy=\"392\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.72\"/><circle cx=\"1234\" cy=\"63\" r=\"2.0\" fill=\"#f4efe0\" opacity=\"0.62\"/><circle cx=\"964\" cy=\"118\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.30\"/><circle cx=\"1273\" cy=\"538\" r=\"1.9\" fill=\"#f4efe0\" opacity=\"0.42\"/><circle cx=\"1254\" cy=\"359\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.72\"/><circle cx=\"966\" cy=\"263\" r=\"2.0\" fill=\"#f4efe0\" opacity=\"0.49\"/><circle cx=\"716\" cy=\"196\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.27\"/><circle cx=\"633\" cy=\"392\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.54\"/><circle cx=\"939\" cy=\"219\" r=\"2.6\" fill=\"#f4efe0\" opacity=\"0.36\"/><circle cx=\"897\" cy=\"134\" r=\"2.0\" fill=\"#f4efe0\" opacity=\"0.40\"/><circle cx=\"856\" cy=\"466\" r=\"1.5\" fill=\"#f4efe0\" opacity=\"0.56\"/><circle cx=\"1251\" cy=\"72\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.38\"/><circle cx=\"1151\" cy=\"385\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.43\"/><circle cx=\"728\" cy=\"290\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.63\"/><circle cx=\"1245\" cy=\"592\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.78\"/><circle cx=\"613\" cy=\"186\" r=\"2.5\" fill=\"#f4efe0\" opacity=\"0.68\"/><circle cx=\"896\" cy=\"585\" r=\"2.0\" fill=\"#f4efe0\" opacity=\"0.70\"/><circle cx=\"811\" cy=\"127\" r=\"1.7\" fill=\"#f4efe0\" opacity=\"0.33\"/><circle cx=\"875\" cy=\"597\" r=\"1.5\" fill=\"#f4efe0\" opacity=\"0.26\"/><circle cx=\"632\" cy=\"113\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.45\"/><circle cx=\"809\" cy=\"69\" r=\"2.6\" fill=\"#f4efe0\" opacity=\"0.48\"/><circle cx=\"750\" cy=\"46\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.34\"/><circle cx=\"1087\" cy=\"101\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.52\"/><circle cx=\"779\" cy=\"619\" r=\"1.2\" fill=\"#f4efe0\" opacity=\"0.54\"/><circle cx=\"1157\" cy=\"260\" r=\"2.6\" fill=\"#f4efe0\" opacity=\"0.51\"/><circle cx=\"774\" cy=\"260\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.48\"/><circle cx=\"779\" cy=\"552\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.52\"/><circle cx=\"623\" cy=\"165\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.36\"/><circle cx=\"767\" cy=\"541\" r=\"1.2\" fill=\"#f4efe0\" opacity=\"0.28\"/><circle cx=\"1268\" cy=\"355\" r=\"2.6\" fill=\"#f4efe0\" opacity=\"0.47\"/><circle cx=\"1249\" cy=\"409\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.66\"/><circle cx=\"956\" cy=\"67\" r=\"1.3\" fill=\"#f4efe0\" opacity=\"0.73\"/><circle cx=\"1248\" cy=\"574\" r=\"1.5\" fill=\"#f4efe0\" opacity=\"0.61\"/><circle cx=\"1176\" cy=\"402\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.54\"/><circle cx=\"1071\" cy=\"428\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.76\"/><circle cx=\"1289\" cy=\"55\" r=\"2.6\" fill=\"#f4efe0\" opacity=\"0.78\"/><circle cx=\"1081\" cy=\"37\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.32\"/><circle cx=\"1297\" cy=\"417\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.34\"/><circle cx=\"1057\" cy=\"357\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.76\"/><circle cx=\"757\" cy=\"12\" r=\"2.5\" fill=\"#f4efe0\" opacity=\"0.26\"/><circle cx=\"1231\" cy=\"81\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.68\"/><circle cx=\"1232\" cy=\"346\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.36\"/><circle cx=\"1083\" cy=\"212\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.68\"/><circle cx=\"939\" cy=\"331\" r=\"1.0\" fill=\"#f4efe0\" opacity=\"0.27\"/><circle cx=\"1028\" cy=\"308\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.58\"/><circle cx=\"700\" cy=\"231\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.54\"/><circle cx=\"608\" cy=\"521\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.30\"/><circle cx=\"991\" cy=\"243\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.42\"/><circle cx=\"768\" cy=\"307\" r=\"2.5\" fill=\"#f4efe0\" opacity=\"0.30\"/><circle cx=\"682\" cy=\"389\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.53\"/><circle cx=\"912\" cy=\"533\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.29\"/><circle cx=\"1235\" cy=\"129\" r=\"1.5\" fill=\"#f4efe0\" opacity=\"0.71\"/><circle cx=\"904\" cy=\"497\" r=\"1.3\" fill=\"#f4efe0\" opacity=\"0.73\"/><circle cx=\"727\" cy=\"101\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.44\"/><circle cx=\"990\" cy=\"561\" r=\"2.1\" fill=\"#f4efe0\" opacity=\"0.25\"/><circle cx=\"825\" cy=\"342\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.64\"/><circle cx=\"949\" cy=\"56\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.72\"/><circle cx=\"857\" cy=\"478\" r=\"2.6\" fill=\"#f4efe0\" opacity=\"0.59\"/><circle cx=\"1087\" cy=\"382\" r=\"1.5\" fill=\"#f4efe0\" opacity=\"0.75\"/><circle cx=\"936\" cy=\"566\" r=\"1.5\" fill=\"#f4efe0\" opacity=\"0.73\"/><circle cx=\"1167\" cy=\"384\" r=\"1.7\" fill=\"#f4efe0\" opacity=\"0.33\"/><circle cx=\"1155\" cy=\"231\" r=\"2.1\" fill=\"#f4efe0\" opacity=\"0.32\"/><circle cx=\"659\" cy=\"98\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.35\"/><circle cx=\"1249\" cy=\"237\" r=\"1.9\" fill=\"#f4efe0\" opacity=\"0.44\"/><circle cx=\"1047\" cy=\"67\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.76\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<circle cx=\"1175\" cy=\"560\" r=\"104.0\" fill=\"#e9eef2\" opacity=\".06\"/><circle cx=\"1175\" cy=\"560\" r=\"40\" fill=\"#e8e6dc\"/><circle cx=\"1161\" cy=\"550\" r=\"9\" fill=\"#cfccc0\"/><circle cx=\"1191\" cy=\"574\" r=\"6\" fill=\"#cfccc0\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<rect x=\"-600\" y=\"860\" width=\"3120\" height=\"1400\" fill=\"#c9a46a\"/><path fill=\"#9c7444\" opacity=\".35\" d=\"M-600,900 C600,870 900,930 1300,890 C1700,860 2000,920 2520,900 L2520,2260 L-600,2260 Z\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<g opacity=\"1\"><polygon fill=\"#d9b77a\" points=\"660.0,865 960,485 1044.0,865\"/><polygon fill=\"#9c7444\" points=\"1044.0,865 960,485 1260.0,865\"/><line x1=\"693.3333333333334\" y1=\"822.7777777777778\" x2=\"1226.6666666666665\" y2=\"822.7777777777778\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"726.6666666666666\" y1=\"780.5555555555555\" x2=\"1193.3333333333333\" y2=\"780.5555555555555\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"760.0\" y1=\"738.3333333333334\" x2=\"1160.0\" y2=\"738.3333333333334\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"793.3333333333333\" y1=\"696.1111111111111\" x2=\"1126.6666666666667\" y2=\"696.1111111111111\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"826.6666666666667\" y1=\"653.8888888888889\" x2=\"1093.3333333333333\" y2=\"653.8888888888889\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"860.0\" y1=\"611.6666666666666\" x2=\"1060.0\" y2=\"611.6666666666666\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"893.3333333333334\" y1=\"569.4444444444445\" x2=\"1026.6666666666667\" y2=\"569.4444444444445\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"926.6666666666666\" y1=\"527.2222222222222\" x2=\"993.3333333333334\" y2=\"527.2222222222222\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/></g>"
+    },
+    {
+     "type": "caption",
+     "text": "*cleopatra*",
+     "x": 960,
+     "size": 70,
+     "t0": 0.3,
+     "y": 190
+    },
+    {
+     "type": "caption",
+     "text": "lived closer to the",
+     "x": 960,
+     "size": 38,
+     "t0": 0.91,
+     "y": 270
+    },
+    {
+     "type": "caption",
+     "text": "*moon landing*",
+     "x": 960,
+     "size": 56,
+     "t0": 2.24,
+     "y": 350
+    },
+    {
+     "type": "caption",
+     "text": "than the pyramids",
+     "x": 960,
+     "size": 40,
+     "t0": 3.91,
+     "y": 420
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 6.09,
+   "end": 10.62,
+   "bg": {
+    "top": "#2a5675",
+    "bottom": "#d9a866",
+    "rays": true,
+    "rayOpacity": 0.05,
+    "particleCount": 18
+   },
+   "camera": {
+    "zoomFrom": 1.1,
+    "zoomTo": 1.0,
+    "y": 700
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<circle cx=\"780\" cy=\"560\" r=\"165\" fill=\"#f2c14e\" opacity=\".07\"/><circle cx=\"780\" cy=\"560\" r=\"93.5\" fill=\"#f2c14e\" opacity=\".12\"/><circle cx=\"780\" cy=\"560\" r=\"55\" fill=\"#f2c14e\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<rect x=\"-600\" y=\"860\" width=\"3120\" height=\"1400\" fill=\"#c9a46a\"/><path fill=\"#9c7444\" opacity=\".35\" d=\"M-600,900 C600,870 900,930 1300,890 C1700,860 2000,920 2520,900 L2520,2260 L-600,2260 Z\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<g opacity=\"1\"><polygon fill=\"#d9b77a\" points=\"660.0,865 960,485 1044.0,865\"/><polygon fill=\"#9c7444\" points=\"1044.0,865 960,485 1260.0,865\"/><line x1=\"693.3333333333334\" y1=\"822.7777777777778\" x2=\"1226.6666666666665\" y2=\"822.7777777777778\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"726.6666666666666\" y1=\"780.5555555555555\" x2=\"1193.3333333333333\" y2=\"780.5555555555555\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"760.0\" y1=\"738.3333333333334\" x2=\"1160.0\" y2=\"738.3333333333334\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"793.3333333333333\" y1=\"696.1111111111111\" x2=\"1126.6666666666667\" y2=\"696.1111111111111\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"826.6666666666667\" y1=\"653.8888888888889\" x2=\"1093.3333333333333\" y2=\"653.8888888888889\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"860.0\" y1=\"611.6666666666666\" x2=\"1060.0\" y2=\"611.6666666666666\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"893.3333333333334\" y1=\"569.4444444444445\" x2=\"1026.6666666666667\" y2=\"569.4444444444445\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"926.6666666666666\" y1=\"527.2222222222222\" x2=\"993.3333333333334\" y2=\"527.2222222222222\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/></g>"
+    },
+    {
+     "type": "tag",
+     "text": "Giza",
+     "x": 690,
+     "y": 90,
+     "t0": 0.2
+    },
+    {
+     "type": "caption",
+     "text": "*2560 bc*",
+     "x": 960,
+     "size": 100,
+     "t0": 2.8,
+     "y": 250
+    },
+    {
+     "type": "caption",
+     "text": "the *great pyramid*",
+     "x": 960,
+     "size": 44,
+     "t0": 0.41,
+     "y": 980
+    }
+   ]
+  },
+  {
+   "start": 10.62,
+   "end": 21.51,
+   "bg": {
+    "top": "#0b1422",
+    "bottom": "#1a2333",
+    "rays": false,
+    "particleCount": 15
+   },
+   "camera": {},
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<line x1=\"720\" y1=\"200\" x2=\"720\" y2=\"920\" stroke=\"#e9eef2\" stroke-opacity=\".18\" stroke-width=\"4\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<circle cx=\"720\" cy=\"200\" r=\"14\" fill=\"#e8b931\"/>",
+     "t0": 0
+    },
+    {
+     "type": "pill",
+     "text": "2560 BC \u00b7 pyramid",
+     "x": 760,
+     "y": 174,
+     "size": 24,
+     "t0": 0
+    },
+    {
+     "type": "svg",
+     "markup": "<circle cx=\"720\" cy=\"602\" r=\"14\" fill=\"#e9eef2\"/>",
+     "t0": 1.85
+    },
+    {
+     "type": "pill",
+     "text": "30 BC \u00b7 Cleopatra",
+     "x": 760,
+     "y": 576,
+     "size": 24,
+     "t0": 1.85
+    },
+    {
+     "type": "bracket",
+     "x1": 720,
+     "y1": 200,
+     "x2": 720,
+     "y2": 602,
+     "color": "#e8b931",
+     "t0": 4.18
+    },
+    {
+     "type": "caption",
+     "text": "*2,530 yrs*",
+     "x": 1000,
+     "size": 46,
+     "t0": 4.4799999999999995,
+     "y": 420
+    },
+    {
+     "type": "svg",
+     "markup": "<circle cx=\"720\" cy=\"920\" r=\"14\" fill=\"#e5383b\"/>",
+     "t0": 6.92
+    },
+    {
+     "type": "pill",
+     "text": "1969 \u00b7 Moon landing",
+     "x": 760,
+     "y": 894,
+     "size": 24,
+     "t0": 6.92,
+     "tone": "red"
+    },
+    {
+     "type": "bracket",
+     "x1": 720,
+     "y1": 602,
+     "x2": 720,
+     "y2": 920,
+     "color": "#e9eef2",
+     "t0": 8.11
+    },
+    {
+     "type": "caption",
+     "text": "1,998 yrs",
+     "x": 1000,
+     "size": 46,
+     "t0": 8.41,
+     "y": 780
+    }
+   ]
+  },
+  {
+   "start": 21.51,
+   "end": 25.45,
+   "bg": {
+    "top": "#141a33",
+    "bottom": "#b0663a",
+    "rays": false,
+    "particleCount": 22
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.1,
+    "y": 760
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<circle cx=\"960\" cy=\"760\" r=\"240\" fill=\"#f08a3c\" opacity=\".07\"/><circle cx=\"960\" cy=\"760\" r=\"136.0\" fill=\"#f08a3c\" opacity=\".12\"/><circle cx=\"960\" cy=\"760\" r=\"80\" fill=\"#f08a3c\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<rect x=\"-600\" y=\"860\" width=\"3120\" height=\"1400\" fill=\"#c9a46a\"/><path fill=\"#9c7444\" opacity=\".35\" d=\"M-600,900 C600,870 900,930 1300,890 C1700,860 2000,920 2520,900 L2520,2260 L-600,2260 Z\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<g opacity=\"1\"><polygon fill=\"#7a5634\" points=\"620.0,865 800,635 850.4,865\"/><polygon fill=\"#4a3220\" points=\"850.4,865 800,635 980.0,865\"/><line x1=\"640.0\" y1=\"839.4444444444445\" x2=\"960.0\" y2=\"839.4444444444445\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"660.0\" y1=\"813.8888888888889\" x2=\"940.0\" y2=\"813.8888888888889\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"680.0\" y1=\"788.3333333333334\" x2=\"920.0\" y2=\"788.3333333333334\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"700.0\" y1=\"762.7777777777778\" x2=\"900.0\" y2=\"762.7777777777778\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"720.0\" y1=\"737.2222222222222\" x2=\"880.0\" y2=\"737.2222222222222\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"740.0\" y1=\"711.6666666666666\" x2=\"860.0\" y2=\"711.6666666666666\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"760.0\" y1=\"686.1111111111111\" x2=\"840.0\" y2=\"686.1111111111111\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"780.0\" y1=\"660.5555555555555\" x2=\"820.0\" y2=\"660.5555555555555\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/></g>"
+    },
+    {
+     "type": "svg",
+     "markup": "<g opacity=\"1\"><polygon fill=\"#7a5634\" points=\"980.0,865 1120,685 1159.2,865\"/><polygon fill=\"#4a3220\" points=\"1159.2,865 1120,685 1260.0,865\"/><line x1=\"995.5555555555555\" y1=\"845.0\" x2=\"1244.4444444444443\" y2=\"845.0\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"1011.1111111111111\" y1=\"825.0\" x2=\"1228.888888888889\" y2=\"825.0\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"1026.6666666666667\" y1=\"805.0\" x2=\"1213.3333333333333\" y2=\"805.0\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"1042.2222222222222\" y1=\"785.0\" x2=\"1197.7777777777778\" y2=\"785.0\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"1057.7777777777778\" y1=\"765.0\" x2=\"1182.2222222222222\" y2=\"765.0\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"1073.3333333333333\" y1=\"745.0\" x2=\"1166.6666666666667\" y2=\"745.0\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"1088.888888888889\" y1=\"725.0\" x2=\"1151.111111111111\" y2=\"725.0\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"1104.4444444444443\" y1=\"705.0\" x2=\"1135.5555555555557\" y2=\"705.0\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/></g>"
+    },
+    {
+     "type": "stamp",
+     "text": "Already ancient",
+     "x": 960,
+     "y": 380,
+     "size": 50,
+     "t0": 2.53
+    }
+   ]
+  },
+  {
+   "start": 25.45,
+   "end": 31.42,
+   "bg": {
+    "mode": "paper"
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.06
+   },
+   "elements": [
+    {
+     "type": "namecard",
+     "title": "CLEOPATRA VII",
+     "sub": "Queen of Egypt \u00b7 51\u201330 BC",
+     "x": 960,
+     "y": 360,
+     "w": 520,
+     "t0": 0
+    },
+    {
+     "type": "pill",
+     "text": "Egyptian family",
+     "x": 780,
+     "y": 540,
+     "size": 28,
+     "t0": 1.24
+    },
+    {
+     "type": "redx",
+     "x": 960,
+     "y": 566,
+     "size": 46,
+     "t0": 2.13
+    },
+    {
+     "type": "pill",
+     "text": "Greek \u00b7 Macedonian",
+     "x": 780,
+     "y": 640,
+     "size": 28,
+     "check": true,
+     "t0": 4.1
+    },
+    {
+     "type": "stamp",
+     "text": "Ptolemaic dynasty",
+     "x": 960,
+     "y": 850,
+     "size": 44,
+     "color": "#e8b931",
+     "t0": 5.05
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 31.42,
+   "end": 37.9,
+   "bg": {
+    "top": "#08111f",
+    "bottom": "#2c3a57",
+    "rays": false,
+    "particleCount": 22
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<circle cx=\"933\" cy=\"238\" r=\"1.2\" fill=\"#f4efe0\" opacity=\"0.73\"/><circle cx=\"605\" cy=\"317\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.29\"/><circle cx=\"999\" cy=\"386\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.46\"/><circle cx=\"1107\" cy=\"286\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.34\"/><circle cx=\"771\" cy=\"78\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.76\"/><circle cx=\"1025\" cy=\"482\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.66\"/><circle cx=\"673\" cy=\"188\" r=\"2.1\" fill=\"#f4efe0\" opacity=\"0.65\"/><circle cx=\"904\" cy=\"64\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.37\"/><circle cx=\"802\" cy=\"504\" r=\"1.3\" fill=\"#f4efe0\" opacity=\"0.74\"/><circle cx=\"1233\" cy=\"43\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.52\"/><circle cx=\"617\" cy=\"269\" r=\"2.5\" fill=\"#f4efe0\" opacity=\"0.31\"/><circle cx=\"1030\" cy=\"84\" r=\"1.9\" fill=\"#f4efe0\" opacity=\"0.74\"/><circle cx=\"746\" cy=\"15\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.55\"/><circle cx=\"613\" cy=\"62\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.76\"/><circle cx=\"902\" cy=\"253\" r=\"2.0\" fill=\"#f4efe0\" opacity=\"0.30\"/><circle cx=\"1017\" cy=\"115\" r=\"2.0\" fill=\"#f4efe0\" opacity=\"0.78\"/><circle cx=\"639\" cy=\"349\" r=\"2.0\" fill=\"#f4efe0\" opacity=\"0.33\"/><circle cx=\"793\" cy=\"617\" r=\"2.6\" fill=\"#f4efe0\" opacity=\"0.32\"/><circle cx=\"1108\" cy=\"590\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.59\"/><circle cx=\"631\" cy=\"233\" r=\"2.1\" fill=\"#f4efe0\" opacity=\"0.57\"/><circle cx=\"1158\" cy=\"63\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.73\"/><circle cx=\"1021\" cy=\"285\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.79\"/><circle cx=\"1014\" cy=\"21\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.43\"/><circle cx=\"912\" cy=\"140\" r=\"1.7\" fill=\"#f4efe0\" opacity=\"0.43\"/><circle cx=\"664\" cy=\"394\" r=\"1.2\" fill=\"#f4efe0\" opacity=\"0.68\"/><circle cx=\"618\" cy=\"486\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.52\"/><circle cx=\"1111\" cy=\"161\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.48\"/><circle cx=\"766\" cy=\"598\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.46\"/><circle cx=\"1219\" cy=\"235\" r=\"2.1\" fill=\"#f4efe0\" opacity=\"0.34\"/><circle cx=\"1207\" cy=\"168\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.79\"/><circle cx=\"724\" cy=\"587\" r=\"2.6\" fill=\"#f4efe0\" opacity=\"0.58\"/><circle cx=\"609\" cy=\"47\" r=\"1.3\" fill=\"#f4efe0\" opacity=\"0.46\"/><circle cx=\"1040\" cy=\"600\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.33\"/><circle cx=\"1005\" cy=\"94\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.56\"/><circle cx=\"1101\" cy=\"50\" r=\"1.7\" fill=\"#f4efe0\" opacity=\"0.64\"/><circle cx=\"1150\" cy=\"244\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.34\"/><circle cx=\"1115\" cy=\"481\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.52\"/><circle cx=\"671\" cy=\"40\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.35\"/><circle cx=\"1053\" cy=\"61\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.37\"/><circle cx=\"609\" cy=\"117\" r=\"1.7\" fill=\"#f4efe0\" opacity=\"0.56\"/><circle cx=\"880\" cy=\"116\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.77\"/><circle cx=\"986\" cy=\"584\" r=\"1.0\" fill=\"#f4efe0\" opacity=\"0.80\"/><circle cx=\"1240\" cy=\"342\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.55\"/><circle cx=\"1255\" cy=\"50\" r=\"2.0\" fill=\"#f4efe0\" opacity=\"0.55\"/><circle cx=\"816\" cy=\"452\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.31\"/><circle cx=\"1104\" cy=\"287\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.60\"/><circle cx=\"638\" cy=\"378\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.73\"/><circle cx=\"766\" cy=\"512\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.59\"/><circle cx=\"1231\" cy=\"32\" r=\"2.0\" fill=\"#f4efe0\" opacity=\"0.59\"/><circle cx=\"1088\" cy=\"258\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.35\"/><circle cx=\"1038\" cy=\"121\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.45\"/><circle cx=\"939\" cy=\"337\" r=\"1.0\" fill=\"#f4efe0\" opacity=\"0.68\"/><circle cx=\"840\" cy=\"488\" r=\"1.0\" fill=\"#f4efe0\" opacity=\"0.77\"/><circle cx=\"1025\" cy=\"606\" r=\"2.6\" fill=\"#f4efe0\" opacity=\"0.71\"/><circle cx=\"676\" cy=\"223\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.68\"/><circle cx=\"738\" cy=\"145\" r=\"1.2\" fill=\"#f4efe0\" opacity=\"0.32\"/><circle cx=\"1275\" cy=\"605\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.66\"/><circle cx=\"937\" cy=\"328\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.60\"/><circle cx=\"770\" cy=\"166\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.36\"/><circle cx=\"916\" cy=\"586\" r=\"1.0\" fill=\"#f4efe0\" opacity=\"0.31\"/><circle cx=\"1176\" cy=\"45\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.72\"/><circle cx=\"1036\" cy=\"145\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.40\"/><circle cx=\"816\" cy=\"498\" r=\"2.6\" fill=\"#f4efe0\" opacity=\"0.68\"/><circle cx=\"1249\" cy=\"578\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.76\"/><circle cx=\"1297\" cy=\"68\" r=\"1.5\" fill=\"#f4efe0\" opacity=\"0.39\"/><circle cx=\"1035\" cy=\"310\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.71\"/><circle cx=\"887\" cy=\"137\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.50\"/><circle cx=\"1040\" cy=\"357\" r=\"1.7\" fill=\"#f4efe0\" opacity=\"0.35\"/><circle cx=\"890\" cy=\"208\" r=\"1.3\" fill=\"#f4efe0\" opacity=\"0.55\"/><circle cx=\"736\" cy=\"444\" r=\"2.1\" fill=\"#f4efe0\" opacity=\"0.33\"/>"
+    },
+    {
+     "type": "bignumber",
+     "from": 0,
+     "to": 250,
+     "suffix": "+ yrs",
+     "x": 960,
+     "y": 420,
+     "size": 120,
+     "color": "#fff8e6",
+     "t0": 0.43,
+     "dur": 1.2
+    },
+    {
+     "type": "caption",
+     "text": "the *first* to learn",
+     "x": 960,
+     "size": 44,
+     "t0": 3.21,
+     "y": 600
+    },
+    {
+     "type": "caption",
+     "text": "egyptian",
+     "x": 960,
+     "size": 56,
+     "t0": 5.35,
+     "y": 670
+    }
+   ]
+  },
+  {
+   "start": 37.9,
+   "end": 43.08,
+   "bg": {
+    "top": "#08111f",
+    "bottom": "#2c3a57",
+    "rays": false,
+    "particleCount": 22
+   },
+   "camera": {
+    "zoomFrom": 1.08,
+    "zoomTo": 1.0,
+    "y": 700
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<circle cx=\"1288\" cy=\"588\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.30\"/><circle cx=\"1202\" cy=\"459\" r=\"2.1\" fill=\"#f4efe0\" opacity=\"0.42\"/><circle cx=\"1036\" cy=\"380\" r=\"1.9\" fill=\"#f4efe0\" opacity=\"0.34\"/><circle cx=\"910\" cy=\"250\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.80\"/><circle cx=\"1284\" cy=\"342\" r=\"1.7\" fill=\"#f4efe0\" opacity=\"0.40\"/><circle cx=\"626\" cy=\"27\" r=\"1.7\" fill=\"#f4efe0\" opacity=\"0.43\"/><circle cx=\"874\" cy=\"554\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.56\"/><circle cx=\"770\" cy=\"25\" r=\"1.5\" fill=\"#f4efe0\" opacity=\"0.33\"/><circle cx=\"967\" cy=\"619\" r=\"2.1\" fill=\"#f4efe0\" opacity=\"0.35\"/><circle cx=\"1243\" cy=\"496\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.75\"/><circle cx=\"1149\" cy=\"492\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.79\"/><circle cx=\"1293\" cy=\"108\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.64\"/><circle cx=\"932\" cy=\"334\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.76\"/><circle cx=\"961\" cy=\"517\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.74\"/><circle cx=\"1248\" cy=\"291\" r=\"1.9\" fill=\"#f4efe0\" opacity=\"0.76\"/><circle cx=\"1121\" cy=\"307\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.43\"/><circle cx=\"1104\" cy=\"111\" r=\"2.5\" fill=\"#f4efe0\" opacity=\"0.40\"/><circle cx=\"1256\" cy=\"199\" r=\"2.5\" fill=\"#f4efe0\" opacity=\"0.64\"/><circle cx=\"963\" cy=\"326\" r=\"2.0\" fill=\"#f4efe0\" opacity=\"0.57\"/><circle cx=\"825\" cy=\"137\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.76\"/><circle cx=\"1049\" cy=\"56\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.65\"/><circle cx=\"1254\" cy=\"127\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.28\"/><circle cx=\"1070\" cy=\"177\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.73\"/><circle cx=\"677\" cy=\"329\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.38\"/><circle cx=\"752\" cy=\"547\" r=\"1.7\" fill=\"#f4efe0\" opacity=\"0.64\"/><circle cx=\"623\" cy=\"231\" r=\"1.3\" fill=\"#f4efe0\" opacity=\"0.62\"/><circle cx=\"660\" cy=\"592\" r=\"1.0\" fill=\"#f4efe0\" opacity=\"0.65\"/><circle cx=\"615\" cy=\"166\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.34\"/><circle cx=\"732\" cy=\"432\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.27\"/><circle cx=\"1313\" cy=\"102\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.44\"/><circle cx=\"1043\" cy=\"463\" r=\"1.2\" fill=\"#f4efe0\" opacity=\"0.44\"/><circle cx=\"622\" cy=\"284\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.66\"/><circle cx=\"1249\" cy=\"471\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.64\"/><circle cx=\"940\" cy=\"148\" r=\"2.1\" fill=\"#f4efe0\" opacity=\"0.42\"/><circle cx=\"673\" cy=\"283\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.32\"/><circle cx=\"1021\" cy=\"250\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.33\"/><circle cx=\"1291\" cy=\"168\" r=\"2.0\" fill=\"#f4efe0\" opacity=\"0.48\"/><circle cx=\"613\" cy=\"350\" r=\"1.2\" fill=\"#f4efe0\" opacity=\"0.28\"/><circle cx=\"624\" cy=\"108\" r=\"1.2\" fill=\"#f4efe0\" opacity=\"0.60\"/><circle cx=\"966\" cy=\"610\" r=\"2.5\" fill=\"#f4efe0\" opacity=\"0.80\"/><circle cx=\"767\" cy=\"281\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.58\"/><circle cx=\"1049\" cy=\"498\" r=\"2.1\" fill=\"#f4efe0\" opacity=\"0.39\"/><circle cx=\"905\" cy=\"331\" r=\"1.0\" fill=\"#f4efe0\" opacity=\"0.27\"/><circle cx=\"894\" cy=\"78\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.38\"/><circle cx=\"672\" cy=\"121\" r=\"1.4\" fill=\"#f4efe0\" opacity=\"0.37\"/><circle cx=\"975\" cy=\"293\" r=\"1.5\" fill=\"#f4efe0\" opacity=\"0.60\"/><circle cx=\"753\" cy=\"563\" r=\"2.5\" fill=\"#f4efe0\" opacity=\"0.65\"/><circle cx=\"912\" cy=\"322\" r=\"1.9\" fill=\"#f4efe0\" opacity=\"0.28\"/><circle cx=\"901\" cy=\"330\" r=\"1.3\" fill=\"#f4efe0\" opacity=\"0.30\"/><circle cx=\"1178\" cy=\"233\" r=\"1.8\" fill=\"#f4efe0\" opacity=\"0.76\"/><circle cx=\"1040\" cy=\"187\" r=\"2.6\" fill=\"#f4efe0\" opacity=\"0.45\"/><circle cx=\"614\" cy=\"428\" r=\"1.2\" fill=\"#f4efe0\" opacity=\"0.42\"/><circle cx=\"1205\" cy=\"420\" r=\"1.0\" fill=\"#f4efe0\" opacity=\"0.50\"/><circle cx=\"896\" cy=\"306\" r=\"1.3\" fill=\"#f4efe0\" opacity=\"0.57\"/><circle cx=\"653\" cy=\"183\" r=\"1.6\" fill=\"#f4efe0\" opacity=\"0.76\"/><circle cx=\"655\" cy=\"471\" r=\"1.3\" fill=\"#f4efe0\" opacity=\"0.56\"/><circle cx=\"882\" cy=\"293\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.47\"/><circle cx=\"688\" cy=\"84\" r=\"1.1\" fill=\"#f4efe0\" opacity=\"0.72\"/><circle cx=\"1062\" cy=\"595\" r=\"2.1\" fill=\"#f4efe0\" opacity=\"0.26\"/><circle cx=\"1075\" cy=\"484\" r=\"2.2\" fill=\"#f4efe0\" opacity=\"0.52\"/><circle cx=\"857\" cy=\"289\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.40\"/><circle cx=\"979\" cy=\"301\" r=\"2.5\" fill=\"#f4efe0\" opacity=\"0.69\"/><circle cx=\"1271\" cy=\"520\" r=\"1.5\" fill=\"#f4efe0\" opacity=\"0.38\"/><circle cx=\"952\" cy=\"168\" r=\"1.7\" fill=\"#f4efe0\" opacity=\"0.62\"/><circle cx=\"1261\" cy=\"367\" r=\"2.3\" fill=\"#f4efe0\" opacity=\"0.30\"/><circle cx=\"856\" cy=\"619\" r=\"1.2\" fill=\"#f4efe0\" opacity=\"0.48\"/><circle cx=\"648\" cy=\"63\" r=\"2.4\" fill=\"#f4efe0\" opacity=\"0.79\"/><circle cx=\"1067\" cy=\"88\" r=\"1.5\" fill=\"#f4efe0\" opacity=\"0.38\"/><circle cx=\"1083\" cy=\"425\" r=\"1.7\" fill=\"#f4efe0\" opacity=\"0.54\"/><circle cx=\"681\" cy=\"340\" r=\"2.5\" fill=\"#f4efe0\" opacity=\"0.67\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<circle cx=\"1110\" cy=\"150\" r=\"119.60000000000001\" fill=\"#e9eef2\" opacity=\".06\"/><circle cx=\"1110\" cy=\"150\" r=\"46\" fill=\"#e8e6dc\"/><circle cx=\"1096\" cy=\"140\" r=\"9\" fill=\"#cfccc0\"/><circle cx=\"1126\" cy=\"164\" r=\"6\" fill=\"#cfccc0\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<rect x=\"-600\" y=\"860\" width=\"3120\" height=\"1400\" fill=\"#c9a46a\"/><path fill=\"#9c7444\" opacity=\".35\" d=\"M-600,900 C600,870 900,930 1300,890 C1700,860 2000,920 2520,900 L2520,2260 L-600,2260 Z\"/>"
+    },
+    {
+     "type": "svg",
+     "markup": "<g opacity=\"1\"><polygon fill=\"#d9b77a\" points=\"660.0,865 960,485 1044.0,865\"/><polygon fill=\"#9c7444\" points=\"1044.0,865 960,485 1260.0,865\"/><line x1=\"693.3333333333334\" y1=\"822.7777777777778\" x2=\"1226.6666666666665\" y2=\"822.7777777777778\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"726.6666666666666\" y1=\"780.5555555555555\" x2=\"1193.3333333333333\" y2=\"780.5555555555555\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"760.0\" y1=\"738.3333333333334\" x2=\"1160.0\" y2=\"738.3333333333334\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"793.3333333333333\" y1=\"696.1111111111111\" x2=\"1126.6666666666667\" y2=\"696.1111111111111\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"826.6666666666667\" y1=\"653.8888888888889\" x2=\"1093.3333333333333\" y2=\"653.8888888888889\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"860.0\" y1=\"611.6666666666666\" x2=\"1060.0\" y2=\"611.6666666666666\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"893.3333333333334\" y1=\"569.4444444444445\" x2=\"1026.6666666666667\" y2=\"569.4444444444445\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/><line x1=\"926.6666666666666\" y1=\"527.2222222222222\" x2=\"993.3333333333334\" y2=\"527.2222222222222\" stroke=\"#000\" stroke-opacity=\".08\" stroke-width=\"2\"/></g>"
+    },
+    {
+     "type": "caption",
+     "text": "history is *older*",
+     "x": 960,
+     "size": 48,
+     "t0": 1.38,
+     "y": 330
+    },
+    {
+     "type": "caption",
+     "text": "than you think",
+     "x": 960,
+     "size": 40,
+     "t0": 2.49,
+     "y": 400
+    },
+    {
+     "type": "tag",
+     "text": "History Lab",
+     "x": 690,
+     "y": 1000,
+     "t0": 0.18
+    },
+    {
+     "type": "caption",
+     "text": "*follow* for more",
+     "x": 960,
+     "size": 40,
+     "t0": 0.48,
+     "y": 930
+    }
+   ],
+   "fadeOut": 1.4
+  }
+ ]
+}

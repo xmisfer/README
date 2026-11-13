@@ -1,0 +1,467 @@
+{
+ "preset": "abyss",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "grain": 0.05,
+ "tokens": {
+  "hl": "#e8b931",
+  "creature": {
+   "whale": [
+    "#8f8e8a",
+    "#6f6e6a",
+    "#b5b4ae"
+   ],
+   "fish": [
+    "#7f97a6",
+    "#c3d2da",
+    "#4c606c"
+   ],
+   "shark": [
+    "#5d6872",
+    "#d9dcdc",
+    "#2b3138"
+   ],
+   "blob": [
+    "#e38a9a",
+    "#e38a9a",
+    "#e38a9a"
+   ]
+  }
+ },
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 5.25,
+   "bg": {
+    "top": "#0d0a08",
+    "bottom": "#2a1d10",
+    "rays": false,
+    "particleCount": 30,
+    "spotlight": {
+     "x": 960,
+     "w": 360
+    }
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.15
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(960 560) scale(2.2)\"><path fill=\"#b3262c\" d=\"M0,40 C-60,0 -70,-40 -40,-58 C-18,-70 -4,-56 0,-42 C4,-56 18,-70 40,-58 C70,-40 60,0 0,40 Z\"/><path fill=\"#fff\" opacity=\".25\" d=\"M-38,-44 C-26,-56 -14,-50 -12,-42 C-22,-46 -30,-40 -38,-30 Z\"/></g>"
+    },
+    {
+     "type": "caption",
+     "text": "your heart",
+     "x": 960,
+     "size": 56,
+     "t0": 3.59,
+     "y": 300
+    },
+    {
+     "type": "caption",
+     "text": "put on *trial*",
+     "x": 960,
+     "size": 56,
+     "t0": 4.68,
+     "y": 380
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 5.25,
+   "end": 10.27,
+   "bg": {
+    "top": "#0d0a08",
+    "bottom": "#2a1d10",
+    "rays": false,
+    "particleCount": 30,
+    "spotlight": {
+     "x": 960,
+     "w": 360
+    }
+   },
+   "camera": {
+    "zoomFrom": 1.05,
+    "zoomTo": 1.12,
+    "y": 600
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<rect x=\"951\" y=\"430\" width=\"18\" height=\"420\" fill=\"#c99a3c\"/><rect x=\"870\" y=\"840\" width=\"180\" height=\"22\" rx=\"6\" fill=\"#c99a3c\"/><line x1=\"775.0\" y1=\"430.0\" x2=\"1145.0\" y2=\"430.0\" stroke=\"#c99a3c\" stroke-width=\"12\" stroke-linecap=\"round\"/><circle cx=\"960\" cy=\"430\" r=\"16\" fill=\"#c99a3c\"/><path stroke=\"#c99a3c\" stroke-width=\"3\" fill=\"none\" d=\"M775.0,430.0 L705.0,580.0 M775.0,430.0 L845.0,580.0\"/><path fill=\"#c99a3c\" d=\"M685.0,580.0 L865.0,580.0 C845.0,620.0 705.0,620.0 685.0,580.0 Z\"/><g transform=\"translate(775.0 540.0)\"><g transform=\"translate(0 0) scale(0.9)\"><path fill=\"#b3262c\" d=\"M0,40 C-60,0 -70,-40 -40,-58 C-18,-70 -4,-56 0,-42 C4,-56 18,-70 40,-58 C70,-40 60,0 0,40 Z\"/><path fill=\"#fff\" opacity=\".25\" d=\"M-38,-44 C-26,-56 -14,-50 -12,-42 C-22,-46 -30,-40 -38,-30 Z\"/></g></g><path stroke=\"#c99a3c\" stroke-width=\"3\" fill=\"none\" d=\"M1145.0,430.0 L1075.0,580.0 M1145.0,430.0 L1215.0,580.0\"/><path fill=\"#c99a3c\" d=\"M1055.0,580.0 L1235.0,580.0 C1215.0,620.0 1075.0,620.0 1055.0,580.0 Z\"/><g transform=\"translate(1145.0 540.0)\"><g transform=\"translate(0 -10) scale(0.9)\"><path fill=\"#f1ede2\" d=\"M-6,40 C-30,10 -34,-40 -10,-80 C10,-96 30,-90 30,-70 C34,-30 20,10 6,40 Z\"/><path stroke=\"#b9b2a0\" stroke-width=\"3\" fill=\"none\" d=\"M0,44 C2,0 6,-40 18,-80\"/></g></g>"
+    },
+    {
+     "type": "namecard",
+     "title": "ANUBIS",
+     "sub": "God of the dead",
+     "x": 960,
+     "y": 220,
+     "w": 360,
+     "t0": 1.14
+    },
+    {
+     "type": "circle",
+     "x": 1145,
+     "y": 520,
+     "rx": 80,
+     "ry": 90,
+     "t0": 4.29
+    },
+    {
+     "type": "caption",
+     "text": "vs a single *feather*",
+     "x": 960,
+     "size": 40,
+     "t0": 4.29,
+     "y": 980
+    }
+   ]
+  },
+  {
+   "start": 10.27,
+   "end": 13.67,
+   "bg": {
+    "top": "#0d0a08",
+    "bottom": "#2a1d10",
+    "rays": false,
+    "particleCount": 30,
+    "spotlight": {
+     "x": 960,
+     "w": 360
+    }
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.15
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(960 560) scale(2.6)\"><path fill=\"#f1ede2\" d=\"M-6,40 C-30,10 -34,-40 -10,-80 C10,-96 30,-90 30,-70 C34,-30 20,10 6,40 Z\"/><path stroke=\"#b9b2a0\" stroke-width=\"3\" fill=\"none\" d=\"M0,44 C2,0 6,-40 18,-80\"/></g>"
+    },
+    {
+     "type": "namecard",
+     "title": "MA'AT",
+     "sub": "Truth \u00b7 order \u00b7 justice",
+     "x": 960,
+     "y": 860,
+     "w": 400,
+     "t0": 0.18
+    },
+    {
+     "type": "caption",
+     "text": "*truth*",
+     "x": 960,
+     "size": 64,
+     "t0": 2.0,
+     "y": 260
+    }
+   ]
+  },
+  {
+   "start": 13.67,
+   "end": 17.32,
+   "bg": {
+    "top": "#0d0a08",
+    "bottom": "#2a1d10",
+    "rays": false,
+    "particleCount": 30,
+    "spotlight": {
+     "x": 960,
+     "w": 360
+    }
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.1,
+    "y": 600
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<rect x=\"951\" y=\"430\" width=\"18\" height=\"420\" fill=\"#c99a3c\"/><rect x=\"870\" y=\"840\" width=\"180\" height=\"22\" rx=\"6\" fill=\"#c99a3c\"/><line x1=\"775.0\" y1=\"430.0\" x2=\"1145.0\" y2=\"430.0\" stroke=\"#c99a3c\" stroke-width=\"12\" stroke-linecap=\"round\"/><circle cx=\"960\" cy=\"430\" r=\"16\" fill=\"#c99a3c\"/><path stroke=\"#c99a3c\" stroke-width=\"3\" fill=\"none\" d=\"M775.0,430.0 L705.0,580.0 M775.0,430.0 L845.0,580.0\"/><path fill=\"#c99a3c\" d=\"M685.0,580.0 L865.0,580.0 C845.0,620.0 705.0,620.0 685.0,580.0 Z\"/><g transform=\"translate(775.0 540.0)\"><g transform=\"translate(0 0) scale(0.9)\"><path fill=\"#b3262c\" d=\"M0,40 C-60,0 -70,-40 -40,-58 C-18,-70 -4,-56 0,-42 C4,-56 18,-70 40,-58 C70,-40 60,0 0,40 Z\"/><path fill=\"#fff\" opacity=\".25\" d=\"M-38,-44 C-26,-56 -14,-50 -12,-42 C-22,-46 -30,-40 -38,-30 Z\"/></g></g><path stroke=\"#c99a3c\" stroke-width=\"3\" fill=\"none\" d=\"M1145.0,430.0 L1075.0,580.0 M1145.0,430.0 L1215.0,580.0\"/><path fill=\"#c99a3c\" d=\"M1055.0,580.0 L1235.0,580.0 C1215.0,620.0 1075.0,620.0 1055.0,580.0 Z\"/><g transform=\"translate(1145.0 540.0)\"><g transform=\"translate(0 -10) scale(0.9)\"><path fill=\"#f1ede2\" d=\"M-6,40 C-30,10 -34,-40 -10,-80 C10,-96 30,-90 30,-70 C34,-30 20,10 6,40 Z\"/><path stroke=\"#b9b2a0\" stroke-width=\"3\" fill=\"none\" d=\"M0,44 C2,0 6,-40 18,-80\"/></g></g>",
+     "t1": 1.22
+    },
+    {
+     "type": "svg",
+     "markup": "<rect x=\"951\" y=\"430\" width=\"18\" height=\"420\" fill=\"#c99a3c\"/><rect x=\"870\" y=\"840\" width=\"180\" height=\"22\" rx=\"6\" fill=\"#c99a3c\"/><line x1=\"782.166586251411\" y1=\"480.99291082614485\" x2=\"1137.833413748589\" y2=\"379.00708917385515\" stroke=\"#c99a3c\" stroke-width=\"12\" stroke-linecap=\"round\"/><circle cx=\"960\" cy=\"430\" r=\"16\" fill=\"#c99a3c\"/><path stroke=\"#c99a3c\" stroke-width=\"3\" fill=\"none\" d=\"M782.166586251411,480.99291082614485 L712.166586251411,630.9929108261449 M782.166586251411,480.99291082614485 L852.166586251411,630.9929108261449\"/><path fill=\"#c99a3c\" d=\"M692.166586251411,630.9929108261449 L872.166586251411,630.9929108261449 C852.166586251411,670.9929108261449 712.166586251411,670.9929108261449 692.166586251411,630.9929108261449 Z\"/><g transform=\"translate(782.166586251411 590.9929108261449)\"><g transform=\"translate(0 0) scale(0.9)\"><path fill=\"#b3262c\" d=\"M0,40 C-60,0 -70,-40 -40,-58 C-18,-70 -4,-56 0,-42 C4,-56 18,-70 40,-58 C70,-40 60,0 0,40 Z\"/><path fill=\"#fff\" opacity=\".25\" d=\"M-38,-44 C-26,-56 -14,-50 -12,-42 C-22,-46 -30,-40 -38,-30 Z\"/></g></g><path stroke=\"#c99a3c\" stroke-width=\"3\" fill=\"none\" d=\"M1137.833413748589,379.00708917385515 L1067.833413748589,529.0070891738551 M1137.833413748589,379.00708917385515 L1207.833413748589,529.0070891738551\"/><path fill=\"#c99a3c\" d=\"M1047.833413748589,529.0070891738551 L1227.833413748589,529.0070891738551 C1207.833413748589,569.0070891738551 1067.833413748589,569.0070891738551 1047.833413748589,529.0070891738551 Z\"/><g transform=\"translate(1137.833413748589 489.00708917385515)\"><g transform=\"translate(0 -10) scale(0.9)\"><path fill=\"#f1ede2\" d=\"M-6,40 C-30,10 -34,-40 -10,-80 C10,-96 30,-90 30,-70 C34,-30 20,10 6,40 Z\"/><path stroke=\"#b9b2a0\" stroke-width=\"3\" fill=\"none\" d=\"M0,44 C2,0 6,-40 18,-80\"/></g></g>",
+     "t0": 1.22
+    },
+    {
+     "type": "caption",
+     "text": "!heavier!",
+     "x": 960,
+     "size": 56,
+     "t0": 1.22,
+     "y": 980
+    }
+   ]
+  },
+  {
+   "start": 17.32,
+   "end": 22.46,
+   "bg": {
+    "mode": "black"
+   },
+   "camera": {},
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "sharkFront",
+     "mode": "silhouette",
+     "threat": true,
+     "x": 960,
+     "y": 520,
+     "scale": 1,
+     "approach": {
+      "from": 0.25,
+      "to": 1.6,
+      "dur": 2.0,
+      "t0": 0
+     },
+     "bob": 2
+    },
+    {
+     "type": "namecard",
+     "title": "AMMIT",
+     "sub": "Devourer of the dead",
+     "x": 960,
+     "y": 220,
+     "w": 420,
+     "t0": 1.27
+    },
+    {
+     "type": "factstack",
+     "x": 780.0,
+     "y": 760,
+     "w": 360,
+     "size": 28,
+     "gap": 84,
+     "items": [
+      {
+       "text": "Crocodile",
+       "t0": 2.36
+      },
+      {
+       "text": "Lion",
+       "t0": 3.62
+      },
+      {
+       "text": "Hippo",
+       "t0": 4.48,
+       "tone": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 22.46,
+   "end": 25.44,
+   "bg": {
+    "mode": "black"
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.05
+   },
+   "elements": [
+    {
+     "type": "caption",
+     "text": "your soul",
+     "x": 960,
+     "size": 50,
+     "t0": 0.82,
+     "y": 480
+    },
+    {
+     "type": "stamp",
+     "text": "Gone forever",
+     "x": 960,
+     "y": 600,
+     "size": 60,
+     "t0": 1.96
+    }
+   ]
+  },
+  {
+   "start": 25.44,
+   "end": 33.69,
+   "bg": {
+    "mode": "paper"
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.06
+   },
+   "elements": [
+    {
+     "type": "doccard",
+     "x": 960,
+     "y": 520,
+     "w": 540,
+     "h": 700,
+     "rotate": -2,
+     "header": "Book of the Dead \u00b7 Spell 30B",
+     "title": "O my heart,\ndo not testify\nagainst me",
+     "footer": "Carved on a heart scarab",
+     "t0": 4.63
+    },
+    {
+     "type": "caption",
+     "text": "they *cheated*",
+     "x": 960,
+     "size": 60,
+     "t0": 0.81,
+     "t1": 4.529999999999999,
+     "y": 500
+    },
+    {
+     "type": "stamp",
+     "text": "Cheat code",
+     "x": 960,
+     "y": 930,
+     "size": 50,
+     "color": "#3ecf6a",
+     "t0": 6.47
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 33.69,
+   "end": 39.08,
+   "bg": {
+    "top": "#0d0a08",
+    "bottom": "#2a1d10",
+    "rays": false,
+    "particleCount": 30,
+    "spotlight": {
+     "x": 960,
+     "w": 360
+    }
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(0 0)\"><path fill=\"#232a31\" d=\"M760,520 C750,330 990,280 1100,400 L1122,470 L1176,560 L1124,576 L1134,620 L1112,642 L1122,684 C1100,722 1040,732 1000,722 L992,860 L812,860 L826,704 C772,654 764,604 760,520 Z\"/><circle cx=\"1068\" cy=\"470\" r=\"11\" fill=\"#e9eef2\" opacity=\".8\"/></g>"
+    },
+    {
+     "type": "svg",
+     "markup": "<path stroke=\"#c9ccd0\" stroke-width=\"7\" fill=\"none\" stroke-linecap=\"round\" d=\"M1250,640 L1150,566 L1010,470 C990,456 996,438 1014,444\"/>",
+     "t0": 3.85
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 925,
+     "y": 470,
+     "scale": 0.55,
+     "inner": "<path fill=\"#e38a9a\" d=\"M-175,10 C-190,-80 -100,-125 -20,-118 C40,-140 140,-110 170,-50 C200,10 160,90 80,100 C30,128 -60,124 -110,96 C-160,84 -178,50 -175,10 Z\"/><path d=\"M-120,-40 C-80,-70 -40,-20 0,-50\" stroke=\"#b05468\" stroke-width=\"7\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-140,30 C-90,0 -40,50 10,20\" stroke=\"#b05468\" stroke-width=\"7\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M20,-80 C60,-50 100,-90 130,-40\" stroke=\"#b05468\" stroke-width=\"7\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M40,40 C80,10 110,60 150,20\" stroke=\"#b05468\" stroke-width=\"7\" fill=\"none\" stroke-linecap=\"round\"/>",
+     "bob": 0,
+     "moveTo": {
+      "x": 1260,
+      "y": 610,
+      "dur": 1.4,
+      "t0": 1.66
+     },
+     "t1": 4.51
+    },
+    {
+     "type": "caption",
+     "text": "the *brain*?",
+     "x": 960,
+     "size": 56,
+     "t0": 0.18,
+     "t1": 1.3299999999999998,
+     "y": 220
+    },
+    {
+     "type": "caption",
+     "text": "out through the *nose*",
+     "x": 960,
+     "size": 40,
+     "t0": 3.12,
+     "t1": 4.3100000000000005,
+     "y": 220
+    },
+    {
+     "type": "caption",
+     "text": "!thrown away!",
+     "x": 960,
+     "size": 56,
+     "t0": 4.41,
+     "y": 220
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 39.08,
+   "end": 45.09,
+   "bg": {
+    "top": "#0d0a08",
+    "bottom": "#2a1d10",
+    "rays": false,
+    "particleCount": 30,
+    "spotlight": {
+     "x": 960,
+     "w": 360
+    }
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.06
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(960 420) scale(1.6)\"><path fill=\"#b3262c\" d=\"M0,40 C-60,0 -70,-40 -40,-58 C-18,-70 -4,-56 0,-42 C4,-56 18,-70 40,-58 C70,-40 60,0 0,40 Z\"/><path fill=\"#fff\" opacity=\".25\" d=\"M-38,-44 C-26,-56 -14,-50 -12,-42 C-22,-46 -30,-40 -38,-30 Z\"/></g>"
+    },
+    {
+     "type": "factstack",
+     "x": 710.0,
+     "y": 600,
+     "w": 500,
+     "size": 28,
+     "gap": 84,
+     "items": [
+      {
+       "text": "Heart \u00b7 kept",
+       "t0": 0.46
+      },
+      {
+       "text": "Brain \u00b7 thrown away",
+       "t0": 2.0,
+       "tone": "red"
+      }
+     ]
+    },
+    {
+     "type": "tag",
+     "text": "History Lab",
+     "x": 690,
+     "y": 1000,
+     "t0": 4.11125
+    },
+    {
+     "type": "caption",
+     "text": "*follow* for more",
+     "x": 960,
+     "size": 40,
+     "t0": 4.31125,
+     "y": 930
+    }
+   ],
+   "fadeOut": 1.4
+  }
+ ]
+}
