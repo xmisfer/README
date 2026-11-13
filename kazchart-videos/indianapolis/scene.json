@@ -1,0 +1,1017 @@
+{
+ "preset": "abyss",
+ "width": 1920,
+ "height": 1080,
+ "fps": 30,
+ "grain": 0.05,
+ "tokens": {
+  "creature": {
+   "whale": [
+    "#8f8e8a",
+    "#6f6e6a",
+    "#b5b4ae"
+   ],
+   "fish": [
+    "#7f97a6",
+    "#c3d2da",
+    "#4c606c"
+   ],
+   "shark": [
+    "#5d6872",
+    "#d9dcdc",
+    "#2b3138"
+   ],
+   "blob": [
+    "#66727a",
+    "#66727a",
+    "#66727a"
+   ]
+  }
+ },
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 9.08,
+   "bg": {
+    "depth": 0.8,
+    "sun": {
+     "x": 960,
+     "y": -100,
+     "r": 700
+    },
+    "surface": true
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.12,
+    "x": 960,
+    "y": 200
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(405.3745697644961 76.47433736937232) scale(1.0409436547441535)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.99184750873754 M18,14 L40,30.008152491262457\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.008152491262459,116 M8,54 L4.008152491262459,112\"/></g><g transform=\"translate(514.8174034836776 72.49491064788738) scale(1.0128982431806908)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,34.001990171212285 M18,14 L40,49.998009828787715\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-23.99800982878772,116 M8,54 L23.99800982878772,112\"/></g><g transform=\"translate(593.7543834709694 68.28347476522006) scale(1.0589412759799675)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,49.18409749704632 M18,14 L40,34.81590250295368\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-8.81590250295368,116 M8,54 L8.81590250295368,112\"/></g><g transform=\"translate(715.4912032983177 68.0210605335111) scale(0.9613467985137004)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,34.725079155847865 M18,14 L40,49.274920844152135\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-23.27492084415214,116 M8,54 L23.27492084415214,112\"/></g><g transform=\"translate(789.1504888508181 77.45270695553923) scale(1.075356864402871)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,45.82511150972934 M18,14 L40,38.17488849027066\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-12.174888490270662,116 M8,54 L12.174888490270662,112\"/></g><g transform=\"translate(876.0178344397384 73.41412472793496) scale(1.0847872906946276)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,51.54155528043932 M18,14 L40,32.45844471956068\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-6.458444719560679,116 M8,54 L6.458444719560679,112\"/></g><g transform=\"translate(978.6639758852245 72.22116575582717) scale(0.857260196893717)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.7118413784062 M18,14 L40,30.2881586215938\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.2881586215938,116 M8,54 L4.2881586215938,112\"/></g><g transform=\"translate(1082.515503746023 72.9581224138185) scale(0.9082711125643932)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.82826245082205 M18,14 L40,30.171737549177948\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.171737549177946,116 M8,54 L4.171737549177946,112\"/></g><g transform=\"translate(1168.7512414935075 72.59603465737733) scale(0.9224454036476214)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,45.28581260655953 M18,14 L40,38.71418739344047\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-12.714187393440472,116 M8,54 L12.714187393440472,112\"/></g><g transform=\"translate(1288.5031190265029 73.56454322652434) scale(1.0105735907331115)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,52.98103321441365 M18,14 L40,31.01896678558635\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-5.0189667855863505,116 M8,54 L5.0189667855863505,112\"/></g><g transform=\"translate(1389.7017364870426 76.5994652879529) scale(0.8802224899514516)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.10884137178503 M18,14 L40,30.89115862821497\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.891158628214971,116 M8,54 L4.891158628214971,112\"/></g><g transform=\"translate(1473.8593763033307 75.1119176969528) scale(1.084110146699865)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,49.720070503429234 M18,14 L40,34.279929496570766\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-8.279929496570768,116 M8,54 L8.279929496570768,112\"/></g>"
+    },
+    {
+     "type": "creature",
+     "kind": "shark",
+     "x": -200,
+     "y": 620,
+     "scale": 0.9,
+     "swim": {
+      "vx": 140
+     },
+     "t0": 5.54,
+     "mode": "silhouette"
+    },
+    {
+     "type": "tag",
+     "text": "1945",
+     "t0": 0.3
+    },
+    {
+     "type": "caption",
+     "text": "nearly *900* men went into the sea",
+     "t0": 1.55,
+     "t1": 5.840000000000001
+    },
+    {
+     "type": "caption",
+     "text": "only !316! came out",
+     "t0": 6.2
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 9.08,
+   "end": 13.03,
+   "bg": {
+    "depth": 0.35
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08,
+    "x": 960,
+    "y": 420
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<defs><linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#18303f\"/><stop offset=\"1\" stop-color=\"#6d8e9c\"/></linearGradient></defs><rect x=\"-600\" y=\"-600\" width=\"3120\" height=\"1030\" fill=\"url(#sky)\"/><circle cx=\"1480\" cy=\"250\" r=\"70\" fill=\"#e9f3f2\" opacity=\".55\"/><circle cx=\"1480\" cy=\"250\" r=\"160\" fill=\"#e9f3f2\" opacity=\".08\"/>"
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 900,
+     "y": 401.5,
+     "scale": 0.95,
+     "inner": "<path fill=\"#66727a\"  d=\"M-440,-54 L470,-62 L440,-10 L400,40 C200,58 -200,58 -420,46 Z\"/><path fill=\"#3d474e\" opacity=\".5\" d=\"M-420,20 L420,14 L400,40 C200,58 -200,58 -420,46 Z\"/><rect x=\"-130\" y=\"-122\" width=\"230\" height=\"70\" fill=\"#7d8a92\" /><path fill=\"#7d8a92\"  d=\"M40,-122 L40,-196 L70,-214 L112,-214 L112,-122 Z\"/><rect x=\"84\" y=\"-300\" width=\"8\" height=\"90\" fill=\"#3d474e\" /><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M60,-270 L116,-270\"/><path fill=\"#3d474e\"  d=\"M-70,-122 L-78,-200 L-34,-200 L-26,-122 Z\"/><path fill=\"#3d474e\"  d=\"M-165,-122 L-173,-200 L-129,-200 L-121,-122 Z\"/><path fill=\"#3d474e\"  d=\"M156,-54 L162,-86 L220,-86 L226,-54 Z\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M190,-82 L280,-88\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M190,-74 L280,-80\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M190,-66 L280,-72\"/><path fill=\"#3d474e\"  d=\"M251,-54 L257,-86 L315,-86 L321,-54 Z\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M285,-82 L375,-88\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M285,-74 L375,-80\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M285,-66 L375,-72\"/><path fill=\"#3d474e\"  d=\"M-334,-54 L-328,-86 L-270,-86 L-264,-54 Z\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M-300,-82 L-390,-88\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M-300,-74 L-390,-80\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M-300,-66 L-390,-72\"/><path fill=\"none\" stroke=\"#3d474e\" stroke-width=\"2\" opacity=\".7\" d=\"M88,-300 L-300,-54 M88,-300 L440,-58\"/>",
+     "bob": 3,
+     "swim": {
+      "vx": 10
+     }
+    },
+    {
+     "type": "svg",
+     "markup": "<rect x=\"-600\" y=\"430\" width=\"3120\" height=\"1400\" fill=\"#17465d\" opacity=\".42\"/><path fill=\"none\" stroke=\"#cfe9f2\" stroke-width=\"4\" opacity=\".55\" d=\"M-600,430 Q-540,422 -480,430 Q-420,422 -360,430 Q-300,422 -240,430 Q-180,422 -120,430 Q-60,422 0,430 Q60,422 120,430 Q180,422 240,430 Q300,422 360,430 Q420,422 480,430 Q540,422 600,430 Q660,422 720,430 Q780,422 840,430 Q900,422 960,430 Q1020,422 1080,430 Q1140,422 1200,430 Q1260,422 1320,430 Q1380,422 1440,430 Q1500,422 1560,430 Q1620,422 1680,430 Q1740,422 1800,430 Q1860,422 1920,430 Q1980,422 2040,430 Q2100,422 2160,430 Q2220,422 2280,430 Q2340,422 2400,430 Q2460,422 2520,430\"/>"
+    },
+    {
+     "type": "tag",
+     "text": "July 1945",
+     "t0": 0.2
+    },
+    {
+     "type": "namecard",
+     "title": "USS INDIANAPOLIS",
+     "sub": "Heavy cruiser \u00b7 CA-35",
+     "x": 960,
+     "y": 860,
+     "w": 520,
+     "t0": 2.64
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 13.03,
+   "end": 19.46,
+   "bg": {
+    "depth": 0.35
+   },
+   "camera": {
+    "zoomFrom": 1.12,
+    "zoomTo": 1.25,
+    "x": 900,
+    "y": 380
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<defs><linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#18303f\"/><stop offset=\"1\" stop-color=\"#6d8e9c\"/></linearGradient></defs><rect x=\"-600\" y=\"-600\" width=\"3120\" height=\"1030\" fill=\"url(#sky)\"/><circle cx=\"1480\" cy=\"250\" r=\"70\" fill=\"#e9f3f2\" opacity=\".55\"/><circle cx=\"1480\" cy=\"250\" r=\"160\" fill=\"#e9f3f2\" opacity=\".08\"/>"
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 880,
+     "y": 401.5,
+     "scale": 0.95,
+     "inner": "<path fill=\"#66727a\"  d=\"M-440,-54 L470,-62 L440,-10 L400,40 C200,58 -200,58 -420,46 Z\"/><path fill=\"#3d474e\" opacity=\".5\" d=\"M-420,20 L420,14 L400,40 C200,58 -200,58 -420,46 Z\"/><rect x=\"-130\" y=\"-122\" width=\"230\" height=\"70\" fill=\"#7d8a92\" /><path fill=\"#7d8a92\"  d=\"M40,-122 L40,-196 L70,-214 L112,-214 L112,-122 Z\"/><rect x=\"84\" y=\"-300\" width=\"8\" height=\"90\" fill=\"#3d474e\" /><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M60,-270 L116,-270\"/><path fill=\"#3d474e\"  d=\"M-70,-122 L-78,-200 L-34,-200 L-26,-122 Z\"/><path fill=\"#3d474e\"  d=\"M-165,-122 L-173,-200 L-129,-200 L-121,-122 Z\"/><path fill=\"#3d474e\"  d=\"M156,-54 L162,-86 L220,-86 L226,-54 Z\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M190,-82 L280,-88\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M190,-74 L280,-80\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M190,-66 L280,-72\"/><path fill=\"#3d474e\"  d=\"M251,-54 L257,-86 L315,-86 L321,-54 Z\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M285,-82 L375,-88\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M285,-74 L375,-80\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M285,-66 L375,-72\"/><path fill=\"#3d474e\"  d=\"M-334,-54 L-328,-86 L-270,-86 L-264,-54 Z\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M-300,-82 L-390,-88\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M-300,-74 L-390,-80\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M-300,-66 L-390,-72\"/><path fill=\"none\" stroke=\"#3d474e\" stroke-width=\"2\" opacity=\".7\" d=\"M88,-300 L-300,-54 M88,-300 L440,-58\"/>",
+     "bob": 3,
+     "swim": {
+      "vx": 6
+     }
+    },
+    {
+     "type": "svg",
+     "markup": "<rect x=\"-600\" y=\"430\" width=\"3120\" height=\"1400\" fill=\"#17465d\" opacity=\".42\"/><path fill=\"none\" stroke=\"#cfe9f2\" stroke-width=\"4\" opacity=\".55\" d=\"M-600,430 Q-540,422 -480,430 Q-420,422 -360,430 Q-300,422 -240,430 Q-180,422 -120,430 Q-60,422 0,430 Q60,422 120,430 Q180,422 240,430 Q300,422 360,430 Q420,422 480,430 Q540,422 600,430 Q660,422 720,430 Q780,422 840,430 Q900,422 960,430 Q1020,422 1080,430 Q1140,422 1200,430 Q1260,422 1320,430 Q1380,422 1440,430 Q1500,422 1560,430 Q1620,422 1680,430 Q1740,422 1800,430 Q1860,422 1920,430 Q1980,422 2040,430 Q2100,422 2160,430 Q2220,422 2280,430 Q2340,422 2400,430 Q2460,422 2520,430\"/>"
+    },
+    {
+     "type": "factstack",
+     "x": 90,
+     "y": 740,
+     "w": 560,
+     "size": 27,
+     "gap": 80,
+     "items": [
+      {
+       "text": "Heavy cruiser",
+       "t0": 0.24
+      },
+      {
+       "text": "1,195 men aboard",
+       "t0": 1.78
+      },
+      {
+       "text": "Top secret mission",
+       "t0": 5.27,
+       "tone": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 19.46,
+   "end": 24.93,
+   "bg": {
+    "mode": "paper"
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08
+   },
+   "elements": [
+    {
+     "type": "doccard",
+     "x": 960,
+     "y": 540,
+     "w": 640,
+     "h": 740,
+     "header": "Tinian Island \u00b7 26 July 1945",
+     "title": "Cargo delivered:\natomic bomb\ncomponents",
+     "footer": "Destination: Hiroshima",
+     "t0": 0
+    },
+    {
+     "type": "stamp",
+     "text": "Top secret",
+     "x": 1300,
+     "y": 820,
+     "size": 50,
+     "t0": 1.72
+    }
+   ]
+  },
+  {
+   "start": 24.93,
+   "end": 28.02,
+   "bg": {
+    "depth": 0.55,
+    "rays": true,
+    "surface": true,
+    "sun": {
+     "x": 700,
+     "y": -80,
+     "r": 520
+    }
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.1,
+    "x": 960,
+    "y": 200
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 1100,
+     "y": 106.6,
+     "scale": 0.9,
+     "inner": "<path fill=\"#05090d\"  d=\"M-440,-54 L470,-62 L440,-10 L400,40 C200,58 -200,58 -420,46 Z\"/><rect x=\"-130\" y=\"-122\" width=\"230\" height=\"70\" fill=\"#05090d\" /><path fill=\"#05090d\"  d=\"M40,-122 L40,-196 L70,-214 L112,-214 L112,-122 Z\"/><rect x=\"84\" y=\"-300\" width=\"8\" height=\"90\" fill=\"#05090d\" /><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M60,-270 L116,-270\"/><path fill=\"#05090d\"  d=\"M-70,-122 L-78,-200 L-34,-200 L-26,-122 Z\"/><path fill=\"#05090d\"  d=\"M-165,-122 L-173,-200 L-129,-200 L-121,-122 Z\"/><path fill=\"#05090d\"  d=\"M156,-54 L162,-86 L220,-86 L226,-54 Z\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M190,-82 L280,-88\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M190,-74 L280,-80\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M190,-66 L280,-72\"/><path fill=\"#05090d\"  d=\"M251,-54 L257,-86 L315,-86 L321,-54 Z\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M285,-82 L375,-88\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M285,-74 L375,-80\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M285,-66 L375,-72\"/><path fill=\"#05090d\"  d=\"M-334,-54 L-328,-86 L-270,-86 L-264,-54 Z\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M-300,-82 L-390,-88\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M-300,-74 L-390,-80\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M-300,-66 L-390,-72\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M88,-300 L-300,-54 M88,-300 L440,-58\"/>",
+     "bob": 3,
+     "swim": {
+      "vx": 20
+     },
+     "mode": "silhouette"
+    },
+    {
+     "type": "caption",
+     "text": "*alone*. no escort.",
+     "t0": 1.37
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 28.02,
+   "end": 33.41,
+   "bg": {
+    "mode": "sonar"
+   },
+   "camera": {},
+   "elements": [
+    {
+     "type": "sonar",
+     "t0": 0,
+     "blips": [
+      {
+       "x": 1420,
+       "y": 300,
+       "label": "USS Indianapolis",
+       "t": 4.39
+      }
+     ]
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 330,
+     "y": 560,
+     "scale": 0.5,
+     "inner": "<path fill=\"#0b2a12\" stroke=\"#39ff6a\" stroke-width=\"4\" d=\"M-330,0 C-300,-50 -150,-56 0,-56 C180,-56 300,-40 340,0 C300,40 180,58 0,58 C-150,58 -300,50 -330,0 Z\"/><path fill=\"#0b2a12\" stroke=\"#39ff6a\" stroke-width=\"4\" d=\"M-40,-54 L-30,-116 L70,-116 L96,-54 Z\"/><rect x=\"20\" y=\"-170\" width=\"6\" height=\"56\" fill=\"#0b2a12\"/><path fill=\"#0b2a12\" d=\"M-330,0 L-380,-40 L-372,0 L-380,40 Z\"/>",
+     "bob": 2,
+     "mode": "sonar"
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 1420,
+     "y": 380,
+     "scale": 0.45,
+     "inner": "<path fill=\"#0b2a12\" stroke=\"#39ff6a\" stroke-width=\"4\" d=\"M-440,-54 L470,-62 L440,-10 L400,40 C200,58 -200,58 -420,46 Z\"/><rect x=\"-130\" y=\"-122\" width=\"230\" height=\"70\" fill=\"#0b2a12\" stroke=\"#39ff6a\" stroke-width=\"4\"/><path fill=\"#0b2a12\" stroke=\"#39ff6a\" stroke-width=\"4\" d=\"M40,-122 L40,-196 L70,-214 L112,-214 L112,-122 Z\"/><rect x=\"84\" y=\"-300\" width=\"8\" height=\"90\" fill=\"#0b2a12\" stroke=\"#39ff6a\" stroke-width=\"4\"/><path stroke=\"#0b2a12\" stroke-width=\"5\" d=\"M60,-270 L116,-270\"/><path fill=\"#0b2a12\" stroke=\"#39ff6a\" stroke-width=\"4\" d=\"M-70,-122 L-78,-200 L-34,-200 L-26,-122 Z\"/><path fill=\"#0b2a12\" stroke=\"#39ff6a\" stroke-width=\"4\" d=\"M-165,-122 L-173,-200 L-129,-200 L-121,-122 Z\"/><path fill=\"#0b2a12\" stroke=\"#39ff6a\" stroke-width=\"4\" d=\"M156,-54 L162,-86 L220,-86 L226,-54 Z\"/><path stroke=\"#0b2a12\" stroke-width=\"5\" d=\"M190,-82 L280,-88\"/><path stroke=\"#0b2a12\" stroke-width=\"5\" d=\"M190,-74 L280,-80\"/><path stroke=\"#0b2a12\" stroke-width=\"5\" d=\"M190,-66 L280,-72\"/><path fill=\"#0b2a12\" stroke=\"#39ff6a\" stroke-width=\"4\" d=\"M251,-54 L257,-86 L315,-86 L321,-54 Z\"/><path stroke=\"#0b2a12\" stroke-width=\"5\" d=\"M285,-82 L375,-88\"/><path stroke=\"#0b2a12\" stroke-width=\"5\" d=\"M285,-74 L375,-80\"/><path stroke=\"#0b2a12\" stroke-width=\"5\" d=\"M285,-66 L375,-72\"/><path fill=\"#0b2a12\" stroke=\"#39ff6a\" stroke-width=\"4\" d=\"M-334,-54 L-328,-86 L-270,-86 L-264,-54 Z\"/><path stroke=\"#0b2a12\" stroke-width=\"5\" d=\"M-300,-82 L-390,-88\"/><path stroke=\"#0b2a12\" stroke-width=\"5\" d=\"M-300,-74 L-390,-80\"/><path stroke=\"#0b2a12\" stroke-width=\"5\" d=\"M-300,-66 L-390,-72\"/><path fill=\"none\" stroke=\"#0b2a12\" stroke-width=\"2\" opacity=\".7\" d=\"M88,-300 L-300,-54 M88,-300 L440,-58\"/>",
+     "bob": 2,
+     "t0": 4.1899999999999995,
+     "mode": "sonar"
+    },
+    {
+     "type": "tag",
+     "text": "30 July \u00b7 00:14",
+     "t0": 0.2
+    },
+    {
+     "type": "pill",
+     "text": "Submarine I-58",
+     "x": 160,
+     "y": 700,
+     "size": 24,
+     "t0": 3.04
+    }
+   ]
+  },
+  {
+   "start": 33.41,
+   "end": 38.39,
+   "bg": {
+    "depth": 0.45
+   },
+   "camera": {
+    "zoomFrom": 1.05,
+    "zoomTo": 1.2,
+    "x": 900,
+    "y": 440
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<defs><linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#18303f\"/><stop offset=\"1\" stop-color=\"#6d8e9c\"/></linearGradient></defs><rect x=\"-600\" y=\"-600\" width=\"3120\" height=\"1030\" fill=\"url(#sky)\"/><circle cx=\"1480\" cy=\"250\" r=\"70\" fill=\"#e9f3f2\" opacity=\".55\"/><circle cx=\"1480\" cy=\"250\" r=\"160\" fill=\"#e9f3f2\" opacity=\".08\"/>"
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 880,
+     "y": 401.5,
+     "scale": 0.95,
+     "inner": "<path fill=\"#66727a\"  d=\"M-440,-54 L470,-62 L440,-10 L400,40 C200,58 -200,58 -420,46 Z\"/><path fill=\"#3d474e\" opacity=\".5\" d=\"M-420,20 L420,14 L400,40 C200,58 -200,58 -420,46 Z\"/><rect x=\"-130\" y=\"-122\" width=\"230\" height=\"70\" fill=\"#7d8a92\" /><path fill=\"#7d8a92\"  d=\"M40,-122 L40,-196 L70,-214 L112,-214 L112,-122 Z\"/><rect x=\"84\" y=\"-300\" width=\"8\" height=\"90\" fill=\"#3d474e\" /><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M60,-270 L116,-270\"/><path fill=\"#3d474e\"  d=\"M-70,-122 L-78,-200 L-34,-200 L-26,-122 Z\"/><path fill=\"#3d474e\"  d=\"M-165,-122 L-173,-200 L-129,-200 L-121,-122 Z\"/><path fill=\"#3d474e\"  d=\"M156,-54 L162,-86 L220,-86 L226,-54 Z\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M190,-82 L280,-88\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M190,-74 L280,-80\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M190,-66 L280,-72\"/><path fill=\"#3d474e\"  d=\"M251,-54 L257,-86 L315,-86 L321,-54 Z\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M285,-82 L375,-88\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M285,-74 L375,-80\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M285,-66 L375,-72\"/><path fill=\"#3d474e\"  d=\"M-334,-54 L-328,-86 L-270,-86 L-264,-54 Z\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M-300,-82 L-390,-88\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M-300,-74 L-390,-80\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M-300,-66 L-390,-72\"/><path fill=\"none\" stroke=\"#3d474e\" stroke-width=\"2\" opacity=\".7\" d=\"M88,-300 L-300,-54 M88,-300 L440,-58\"/>",
+     "bob": 1,
+     "rotate": 8,
+     "moveTo": {
+      "x": 900,
+      "y": 600,
+      "dur": 4.980000000000004,
+      "t0": 0
+     }
+    },
+    {
+     "type": "svg",
+     "markup": "<rect x=\"-600\" y=\"430\" width=\"3120\" height=\"1400\" fill=\"#17465d\" opacity=\".42\"/><path fill=\"none\" stroke=\"#cfe9f2\" stroke-width=\"4\" opacity=\".55\" d=\"M-600,430 Q-540,422 -480,430 Q-420,422 -360,430 Q-300,422 -240,430 Q-180,422 -120,430 Q-60,422 0,430 Q60,422 120,430 Q180,422 240,430 Q300,422 360,430 Q420,422 480,430 Q540,422 600,430 Q660,422 720,430 Q780,422 840,430 Q900,422 960,430 Q1020,422 1080,430 Q1140,422 1200,430 Q1260,422 1320,430 Q1380,422 1440,430 Q1500,422 1560,430 Q1620,422 1680,430 Q1740,422 1800,430 Q1860,422 1920,430 Q1980,422 2040,430 Q2100,422 2160,430 Q2220,422 2280,430 Q2340,422 2400,430 Q2460,422 2520,430\"/>"
+    },
+    {
+     "type": "factstack",
+     "x": 1300,
+     "y": 700,
+     "w": 480,
+     "size": 27,
+     "gap": 80,
+     "items": [
+      {
+       "text": "2 torpedoes",
+       "t0": 0.18
+      },
+      {
+       "text": "12 minutes",
+       "t0": 1.69
+      },
+      {
+       "text": "Gone",
+       "t0": 4.35,
+       "tone": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 38.39,
+   "end": 41.58,
+   "bg": {
+    "depth": 0.9,
+    "rays": false
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.06
+   },
+   "elements": [
+    {
+     "type": "bignumber",
+     "from": 0,
+     "to": 300,
+     "prefix": "~",
+     "x": 960,
+     "y": 560,
+     "size": 200,
+     "t0": 0.26,
+     "dur": 1.2
+    },
+    {
+     "type": "caption",
+     "text": "went down with the ship",
+     "y": 700,
+     "t0": 1.71
+    }
+   ]
+  },
+  {
+   "start": 41.58,
+   "end": 46.28,
+   "bg": {
+    "depth": 0.5,
+    "sun": {
+     "x": 960,
+     "y": -100,
+     "r": 760
+    },
+    "surface": true
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.15,
+    "x": 960,
+    "y": 150
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(249.51858508367565 73.44229225295952) scale(0.9424887916370198)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,39.3651193151237 M18,14 L40,44.6348806848763\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-18.634880684876297,116 M8,54 L18.634880684876297,112\"/></g><g transform=\"translate(345.0288121643222 68.65528859239814) scale(0.8532919978887186)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,34.48409154171296 M18,14 L40,49.51590845828704\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-23.515908458287047,116 M8,54 L23.515908458287047,112\"/></g><g transform=\"translate(410.3741605731203 70.34330961046696) scale(1.0989112088776158)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,47.14577579751658 M18,14 L40,36.85422420248342\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-10.854224202483419,116 M8,54 L10.854224202483419,112\"/></g><g transform=\"translate(513.4584580509755 72.76353208699335) scale(1.0097670351360406)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,51.85620598644279 M18,14 L40,32.14379401355721\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-6.143794013557214,116 M8,54 L6.143794013557214,112\"/></g><g transform=\"translate(585.3944263314075 76.68045307143296) scale(0.9807953025958254)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,34.34875512315005 M18,14 L40,49.65124487684995\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-23.65124487684995,116 M8,54 L23.65124487684995,112\"/></g><g transform=\"translate(666.8564590147837 68.64031438226998) scale(1.0395575615717043)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,40.059767875035654 M18,14 L40,43.940232124964346\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-17.940232124964343,116 M8,54 L17.940232124964343,112\"/></g><g transform=\"translate(732.0507063806285 68.3101175146975) scale(1.0663818092447364)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,47.00386766749795 M18,14 L40,36.99613233250205\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-10.99613233250205,116 M8,54 L10.99613233250205,112\"/></g><g transform=\"translate(828.7529569626321 76.78812800255481) scale(1.0285323709028007)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,37.13551845403139 M18,14 L40,46.86448154596861\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-20.86448154596861,116 M8,54 L20.86448154596861,112\"/></g><g transform=\"translate(895.7985361600298 76.00908770985228) scale(0.9611552640126901)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,37.792766461316305 M18,14 L40,46.207233538683695\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-20.2072335386837,116 M8,54 L20.2072335386837,112\"/></g><g transform=\"translate(995.1546664135217 68.97454309730877) scale(0.8839922150501672)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.640704444500926 M18,14 L40,30.35929555549907\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.35929555549907,116 M8,54 L4.35929555549907,112\"/></g><g transform=\"translate(1078.6192055559281 72.3616186662743) scale(1.006662072716701)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.724302534179614 M18,14 L40,30.275697465820386\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.275697465820384,116 M8,54 L4.275697465820384,112\"/></g><g transform=\"translate(1140.2897193531624 71.85866258844902) scale(0.937727622192545)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,40.394551264215735 M18,14 L40,43.605448735784265\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-17.605448735784268,116 M8,54 L17.605448735784268,112\"/></g><g transform=\"translate(1223.370071718808 77.04201770847774) scale(1.0204955341587416)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,37.48536614793966 M18,14 L40,46.51463385206034\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-20.514633852060346,116 M8,54 L20.514633852060346,112\"/></g><g transform=\"translate(1314.2560226558703 77.90989644868816) scale(1.0178183855406295)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,52.297154592320354 M18,14 L40,31.702845407679646\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-5.702845407679646,116 M8,54 L5.702845407679646,112\"/></g><g transform=\"translate(1394.4255013246507 77.64632947309062) scale(1.0761739961280592)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,41.303280277129566 M18,14 L40,42.696719722870434\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-16.696719722870434,116 M8,54 L16.696719722870434,112\"/></g><g transform=\"translate(1468.552680806968 70.11124983675599) scale(1.0579019825683387)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,41.04860556107461 M18,14 L40,42.95139443892539\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-16.951394438925394,116 M8,54 L16.951394438925394,112\"/></g><g transform=\"translate(1531.3982984794482 68.6346057714523) scale(1.06348562210567)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,40.62415829619592 M18,14 L40,43.37584170380408\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-17.375841703804074,116 M8,54 L17.375841703804074,112\"/></g><g transform=\"translate(1603.5407237243892 76.00595321257502) scale(0.9526154568364772)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,51.86173226259886 M18,14 L40,32.13826773740114\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-6.13826773740114,116 M8,54 L6.13826773740114,112\"/></g><g transform=\"translate(1691.7556498727624 75.68791887277345) scale(1.0681917561570504)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,46.62044732493009 M18,14 L40,37.37955267506991\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-11.379552675069908,116 M8,54 L11.379552675069908,112\"/></g>"
+    },
+    {
+     "type": "tag",
+     "text": "Philippine Sea",
+     "t0": 0.2
+    },
+    {
+     "type": "caption",
+     "text": "floating in the *open ocean*",
+     "t0": 2.71
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 46.28,
+   "end": 51.11,
+   "bg": {
+    "depth": 0.6,
+    "surface": true,
+    "sun": {
+     "x": 1300,
+     "y": -100,
+     "r": 500
+    }
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08,
+    "x": 1300,
+    "y": 150
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(1004.9160677955881 75.4178698926073) scale(1.0487983913914243)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,38.12081208207538 M18,14 L40,45.87918791792462\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-19.879187917924618,116 M8,54 L19.879187917924618,112\"/></g><g transform=\"translate(1099.5959429895972 77.22324996665417) scale(0.8572513070709037)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,47.40883689555741 M18,14 L40,36.59116310444259\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-10.591163104442593,116 M8,54 L10.591163104442593,112\"/></g><g transform=\"translate(1197.7342686799325 74.48974553136924) scale(1.0752251229376557)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,50.281986099968044 M18,14 L40,33.718013900031956\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-7.718013900031956,116 M8,54 L7.718013900031956,112\"/></g><g transform=\"translate(1268.7627619112866 70.4657283261983) scale(0.9859402148089826)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,41.02517704436449 M18,14 L40,42.97482295563551\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-16.97482295563551,116 M8,54 L16.97482295563551,112\"/></g><g transform=\"translate(1340.524567583556 70.16729800463848) scale(0.9198705915027776)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,36.930948345454865 M18,14 L40,47.069051654545135\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-21.069051654545135,116 M8,54 L21.069051654545135,112\"/></g><g transform=\"translate(1460.6290180651656 69.59604212358039) scale(1.0492867478578012)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,51.396865871862296 M18,14 L40,32.603134128137704\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-6.6031341281377065,116 M8,54 L6.6031341281377065,112\"/></g><g transform=\"translate(1544.6981008186447 69.2669923255027) scale(0.8504437155506337)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,35.30219731846606 M18,14 L40,48.69780268153394\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-22.69780268153394,116 M8,54 L22.69780268153394,112\"/></g><g transform=\"translate(1618.3782552998048 70.15481169224732) scale(1.0956052772064815)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,35.332050433243765 M18,14 L40,48.667949566756235\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-22.667949566756235,116 M8,54 L22.667949566756235,112\"/></g>"
+    },
+    {
+     "type": "factstack",
+     "x": 90,
+     "y": 560,
+     "w": 620,
+     "size": 28,
+     "gap": 84,
+     "items": [
+      {
+       "text": "Few lifeboats",
+       "t0": 0.18
+      },
+      {
+       "text": "Little water",
+       "t0": 1.61
+      },
+      {
+       "text": "No one knew",
+       "t0": 3.38,
+       "tone": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 51.11,
+   "end": 52.86,
+   "bg": {
+    "depth": 0.75,
+    "surface": true,
+    "sun": {
+     "x": 960,
+     "y": -100,
+     "r": 560
+    }
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.15,
+    "x": 960,
+    "y": 200
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(552.9533105933265 69.50849173924502) scale(1.0127336182599636)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,48.210636923080536 M18,14 L40,35.789363076919464\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-9.789363076919464,116 M8,54 L9.789363076919464,112\"/></g><g transform=\"translate(646.4352801722675 71.65688916912586) scale(0.8644997311936767)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,44.968263160305845 M18,14 L40,39.031736839694155\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-13.031736839694153,116 M8,54 L13.031736839694153,112\"/></g><g transform=\"translate(711.4998263376795 72.33645683662385) scale(0.8674638558936547)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,49.178006220268585 M18,14 L40,34.821993779731415\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-8.821993779731413,116 M8,54 L8.821993779731413,112\"/></g><g transform=\"translate(811.9807675657006 76.26852124672038) scale(0.8809504902874113)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.73354862987719 M18,14 L40,30.266451370122805\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.266451370122805,116 M8,54 L4.266451370122805,112\"/></g><g transform=\"translate(905.0973288962235 77.47708942457005) scale(0.9942757371543747)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,50.900150210219564 M18,14 L40,33.099849789780436\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-7.099849789780436,116 M8,54 L7.099849789780436,112\"/></g><g transform=\"translate(1004.0502042237168 68.46582680617756) scale(1.06461711476217)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.86111240995138 M18,14 L40,30.13888759004862\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.13888759004862,116 M8,54 L4.13888759004862,112\"/></g><g transform=\"translate(1055.7702033342975 69.17792238078368) scale(0.9271204560254835)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,34.16947906758539 M18,14 L40,49.83052093241461\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-23.830520932414608,116 M8,54 L23.830520932414608,112\"/></g><g transform=\"translate(1142.2290551969575 73.81600163662466) scale(1.009728367231546)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,51.87786715319057 M18,14 L40,32.12213284680943\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-6.1221328468094285,116 M8,54 L6.1221328468094285,112\"/></g><g transform=\"translate(1241.9097786283824 68.62788974973323) scale(0.8649002924915582)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.443958264742534 M18,14 L40,30.556041735257466\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.556041735257466,116 M8,54 L4.556041735257466,112\"/></g><g transform=\"translate(1332.2159989272714 72.27592305669403) scale(0.9285367925941979)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,40.36726971050606 M18,14 L40,43.63273028949394\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-17.632730289493942,116 M8,54 L17.632730289493942,112\"/></g>"
+    },
+    {
+     "type": "creature",
+     "kind": "shark",
+     "x": 150,
+     "y": 620,
+     "scale": 1.0,
+     "swim": {
+      "vx": 150
+     },
+     "mode": "silhouette"
+    },
+    {
+     "type": "creature",
+     "kind": "shark",
+     "x": 1850,
+     "y": 820,
+     "scale": 0.8,
+     "flip": true,
+     "swim": {
+      "vx": -140
+     },
+     "phase": 2,
+     "mode": "silhouette"
+    },
+    {
+     "type": "caption",
+     "text": "then the !sharks! came",
+     "t0": 0.7
+    }
+   ]
+  },
+  {
+   "start": 52.86,
+   "end": 57.53,
+   "bg": {
+    "depth": 0.62
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.15,
+    "x": 900
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "shark",
+     "x": 700,
+     "y": 520,
+     "scale": 1.6,
+     "swim": {
+      "vx": 20
+     }
+    },
+    {
+     "type": "namecard",
+     "title": "OCEANIC WHITETIP",
+     "sub": "Carcharhinus longimanus",
+     "x": 960,
+     "y": 880,
+     "w": 520,
+     "t0": 0.13
+    },
+    {
+     "type": "factstack",
+     "x": 1320,
+     "y": 300,
+     "w": 440,
+     "size": 26,
+     "gap": 76,
+     "items": [
+      {
+       "text": "The sinking",
+       "t0": 2.19
+      },
+      {
+       "text": "The noise",
+       "t0": 3.03
+      },
+      {
+       "text": "The blood",
+       "t0": 3.99,
+       "tone": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 57.53,
+   "end": 62.79,
+   "bg": {
+    "depth": 0.8,
+    "surface": true,
+    "sun": {
+     "x": 800,
+     "y": -100,
+     "r": 480
+    }
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.1,
+    "x": 900,
+    "y": 150
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(638.5202943126009 71.73311931395043) scale(0.8846348531286138)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,35.162508688362095 M18,14 L40,48.837491311637905\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-22.8374913116379,116 M8,54 L22.8374913116379,112\"/></g><g transform=\"translate(675.2574021632449 73.02782080052208) scale(1.0745744925079845)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,48.66109169504149 M18,14 L40,35.33890830495851\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-9.338908304958512,116 M8,54 L9.338908304958512,112\"/></g><g transform=\"translate(752.1708187271314 74.16650042683618) scale(0.8602239413712028)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,51.626983327906274 M18,14 L40,32.373016672093726\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-6.373016672093726,116 M8,54 L6.373016672093726,112\"/></g><g transform=\"translate(813.1392156917499 72.52020920450026) scale(1.0312663421455524)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,52.09290328959669 M18,14 L40,31.907096710403312\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-5.907096710403312,116 M8,54 L5.907096710403312,112\"/></g><g transform=\"translate(849.5204880986613 69.10947527978014) scale(0.9765672629172456)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,37.255595434980386 M18,14 L40,46.744404565019614\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-20.74440456501961,116 M8,54 L20.74440456501961,112\"/></g><g transform=\"translate(918.6171382854365 75.74209467235511) scale(0.945916211213162)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,34.27676374538885 M18,14 L40,49.72323625461115\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-23.723236254611155,116 M8,54 L23.723236254611155,112\"/></g><g transform=\"translate(954.0667775031791 70.91178078986407) scale(1.018559000313843)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,34.634533748135595 M18,14 L40,49.365466251864405\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-23.365466251864408,116 M8,54 L23.365466251864408,112\"/></g>"
+    },
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(1502.8561037875966 72.28889054675115) scale(0.9945228252836176)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.44670748274446 M18,14 L40,30.55329251725554\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.553292517255539,116 M8,54 L4.553292517255539,112\"/></g>"
+    },
+    {
+     "type": "circle",
+     "x": 820,
+     "y": 130,
+     "rx": 260,
+     "ry": 110,
+     "color": "#3ecf6a",
+     "t0": 1.39
+    },
+    {
+     "type": "creature",
+     "kind": "shark",
+     "x": 1950,
+     "y": 420,
+     "scale": 0.7,
+     "flip": true,
+     "swim": {
+      "vx": -140
+     },
+     "t0": 2.44,
+     "mode": "silhouette"
+    },
+    {
+     "type": "circle",
+     "x": 1500,
+     "y": 130,
+     "rx": 90,
+     "ry": 100,
+     "color": "#e5383b",
+     "t0": 3.02
+    },
+    {
+     "type": "caption",
+     "text": "stay in *tight groups*",
+     "t0": 1.39,
+     "t1": 2.34
+    },
+    {
+     "type": "caption",
+     "text": "drift away and you were !taken!",
+     "t0": 4.16
+    }
+   ]
+  },
+  {
+   "start": 62.79,
+   "end": 67.45,
+   "bg": {
+    "depth": 0.25,
+    "sun": {
+     "x": 960,
+     "y": -100,
+     "r": 900
+    },
+    "surface": true,
+    "rayOpacity": 0.2
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(698.0951821403927 73.59772386080496) scale(1.0810526460059324)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,47.40729042923779 M18,14 L40,36.59270957076221\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-10.592709570762207,116 M8,54 L10.592709570762207,112\"/></g><g transform=\"translate(810.3136509224909 73.87384828849898) scale(0.8961650859637191)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,44.700833211160166 M18,14 L40,39.299166788839834\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-13.29916678883983,116 M8,54 L13.29916678883983,112\"/></g><g transform=\"translate(925.195308808672 75.92976872519952) scale(0.8735308640573046)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.69008527042003 M18,14 L40,30.309914729579972\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.3099147295799725,116 M8,54 L4.3099147295799725,112\"/></g><g transform=\"translate(1013.6268214996736 76.09644534367177) scale(1.02335962063531)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,46.48645918978658 M18,14 L40,37.51354081021342\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-11.513540810213419,116 M8,54 L11.513540810213419,112\"/></g><g transform=\"translate(1159.2877368319512 77.64757781125567) scale(1.0134806333834603)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,38.75793062773825 M18,14 L40,45.24206937226175\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-19.242069372261753,116 M8,54 L19.242069372261753,112\"/></g><g transform=\"translate(1236.2997638056065 68.15000736949605) scale(0.9820953165426197)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,47.49752243103401 M18,14 L40,36.50247756896599\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-10.502477568965991,116 M8,54 L10.502477568965991,112\"/></g>"
+    },
+    {
+     "type": "factstack",
+     "x": 660,
+     "y": 520,
+     "w": 600,
+     "size": 28,
+     "gap": 84,
+     "items": [
+      {
+       "text": "Exposure",
+       "t0": 2.51
+      },
+      {
+       "text": "Dehydration",
+       "t0": 2.84
+      },
+      {
+       "text": "Saltwater poisoning",
+       "t0": 3.64,
+       "tone": "red"
+      }
+     ]
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 67.45,
+   "end": 71.84,
+   "bg": {
+    "mode": "black"
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.06
+   },
+   "elements": [
+    {
+     "type": "caption",
+     "text": "they began to *hallucinate*",
+     "y": 520,
+     "t0": 1.3,
+     "t1": 2.3
+    },
+    {
+     "type": "caption",
+     "text": "others !drank the sea!",
+     "y": 520,
+     "t0": 2.79
+    }
+   ]
+  },
+  {
+   "start": 71.84,
+   "end": 77.34,
+   "bg": {
+    "depth": 0.15,
+    "sun": {
+     "x": 1100,
+     "y": -60,
+     "r": 800
+    },
+    "surface": true
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.1,
+    "x": 960,
+    "y": 150
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<g transform=\"translate(490.36033966861896 74.85257992964537) scale(1.0210204795040276)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,34.72687168139656 M18,14 L40,49.27312831860344\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-23.273128318603437,116 M8,54 L23.273128318603437,112\"/></g><g transform=\"translate(597.4289669549494 70.30558608965468) scale(0.8867899795421045)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.75936995395578 M18,14 L40,30.240630046044213\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.240630046044213,116 M8,54 L4.240630046044213,112\"/></g><g transform=\"translate(729.3609440885109 69.30213022759757) scale(0.9828286879617546)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,53.58997959210744 M18,14 L40,30.410020407892556\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-4.4100204078925564,116 M8,54 L4.4100204078925564,112\"/></g><g transform=\"translate(821.7862701505345 72.31580328392212) scale(1.0594141276258247)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,39.12852727209716 M18,14 L40,44.87147272790284\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-18.871472727902837,116 M8,54 L18.871472727902837,112\"/></g><g transform=\"translate(920.5772957184837 70.75836853939157) scale(0.8866775804850286)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,35.298646351623944 M18,14 L40,48.701353648376056\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-22.701353648376053,116 M8,54 L22.701353648376053,112\"/></g><g transform=\"translate(1062.3895844484425 76.06046838033575) scale(1.0565913350341207)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,34.295935676095375 M18,14 L40,49.704064323904625\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-23.704064323904625,116 M8,54 L23.704064323904625,112\"/></g><g transform=\"translate(1177.9729366718254 75.93770550765207) scale(0.914176994107174)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,34.7404706879034 M18,14 L40,49.2595293120966\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-23.259529312096607,116 M8,54 L23.259529312096607,112\"/></g><g transform=\"translate(1269.4714197213175 75.55003851277401) scale(0.9910346496504202)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,49.34678097334517 M18,14 L40,34.65321902665483\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-8.653219026654831,116 M8,54 L8.653219026654831,112\"/></g><g transform=\"translate(1374.5681050087896 72.2982227086011) scale(0.9284403414563315)\" fill=\"#05090d\"><circle cx=\"0\" cy=\"-8\" r=\"15\"/><rect x=\"-20\" y=\"4\" width=\"40\" height=\"52\" rx=\"10\"/><path stroke=\"#05090d\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\" d=\"M-18,14 L-40,50.47394078551605 M18,14 L40,33.52605921448395\"/><path stroke=\"#05090d\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\" d=\"M-8,54 L-7.526059214483949,116 M8,54 L7.526059214483949,112\"/></g>"
+    },
+    {
+     "type": "tag",
+     "text": "2 August 1945",
+     "t0": 0.2
+    },
+    {
+     "type": "stamp",
+     "text": "Pure chance",
+     "x": 960,
+     "y": 640,
+     "size": 60,
+     "color": "#3ecf6a",
+     "t0": 4.73
+    },
+    {
+     "type": "caption",
+     "text": "spotted on *day four*",
+     "t0": 0.61
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 77.34,
+   "end": 82.43,
+   "bg": {
+    "depth": 0.55,
+    "rays": false
+   },
+   "camera": {},
+   "elements": [
+    {
+     "type": "bignumber",
+     "from": 1195,
+     "to": 316,
+     "x": 960,
+     "y": 590,
+     "size": 230,
+     "t0": 2.23,
+     "dur": 1.4
+    },
+    {
+     "type": "pill",
+     "text": "Of 1,195 aboard",
+     "x": 790,
+     "y": 680,
+     "size": 26,
+     "t0": 0.78
+    },
+    {
+     "type": "caption",
+     "text": "*survived*",
+     "y": 880,
+     "t0": 4.22
+    }
+   ]
+  },
+  {
+   "start": 82.43,
+   "end": 88.48,
+   "bg": {
+    "depth": 0.9,
+    "rays": false
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 960,
+     "y": 560,
+     "scale": 0.9,
+     "inner": "<path fill=\"#05090d\"  d=\"M-440,-54 L470,-62 L440,-10 L400,40 C200,58 -200,58 -420,46 Z\"/><rect x=\"-130\" y=\"-122\" width=\"230\" height=\"70\" fill=\"#05090d\" /><path fill=\"#05090d\"  d=\"M40,-122 L40,-196 L70,-214 L112,-214 L112,-122 Z\"/><rect x=\"84\" y=\"-300\" width=\"8\" height=\"90\" fill=\"#05090d\" /><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M60,-270 L116,-270\"/><path fill=\"#05090d\"  d=\"M-70,-122 L-78,-200 L-34,-200 L-26,-122 Z\"/><path fill=\"#05090d\"  d=\"M-165,-122 L-173,-200 L-129,-200 L-121,-122 Z\"/><path fill=\"#05090d\"  d=\"M156,-54 L162,-86 L220,-86 L226,-54 Z\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M190,-82 L280,-88\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M190,-74 L280,-80\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M190,-66 L280,-72\"/><path fill=\"#05090d\"  d=\"M251,-54 L257,-86 L315,-86 L321,-54 Z\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M285,-82 L375,-88\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M285,-74 L375,-80\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M285,-66 L375,-72\"/><path fill=\"#05090d\"  d=\"M-334,-54 L-328,-86 L-270,-86 L-264,-54 Z\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M-300,-82 L-390,-88\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M-300,-74 L-390,-80\"/><path stroke=\"#05090d\" stroke-width=\"5\" d=\"M-300,-66 L-390,-72\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M88,-300 L-300,-54 M88,-300 L440,-58\"/>",
+     "bob": 1,
+     "rotate": -4,
+     "opacity": 0.6,
+     "mode": "silhouette"
+    },
+    {
+     "type": "stamp",
+     "text": "Worst loss in navy history",
+     "x": 960,
+     "y": 560,
+     "size": 50,
+     "t0": 1.2
+    }
+   ]
+  },
+  {
+   "start": 88.48,
+   "end": 93.32,
+   "bg": {
+    "mode": "paper"
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08
+   },
+   "elements": [
+    {
+     "type": "doccard",
+     "x": 960,
+     "y": 540,
+     "w": 640,
+     "h": 740,
+     "header": "U.S. Navy \u00b7 December 1945",
+     "title": "Court-martial\nof Capt. Charles\nB. McVay III",
+     "footer": "Hazarding his vessel",
+     "t0": 0
+    },
+    {
+     "type": "stamp",
+     "text": "Convicted",
+     "x": 1290,
+     "y": 820,
+     "size": 54,
+     "t0": 2.21
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 93.32,
+   "end": 99.25,
+   "bg": {
+    "mode": "paper"
+   },
+   "camera": {
+    "zoomFrom": 1.03,
+    "zoomTo": 1.1
+   },
+   "elements": [
+    {
+     "type": "doccard",
+     "x": 960,
+     "y": 540,
+     "w": 640,
+     "h": 740,
+     "rotate": 2,
+     "header": "U.S. Congress \u00b7 October 2000",
+     "title": "Resolution:\nCapt. McVay\nexonerated",
+     "footer": "55 years later",
+     "t0": 0
+    },
+    {
+     "type": "stamp",
+     "text": "Cleared",
+     "x": 1280,
+     "y": 820,
+     "size": 60,
+     "color": "#3ecf6a",
+     "t0": 2.29
+    },
+    {
+     "type": "caption",
+     "text": "he did not live to see it",
+     "y": 1010,
+     "t0": 4.32
+    }
+   ]
+  },
+  {
+   "start": 99.25,
+   "end": 105.25,
+   "bg": {
+    "depth": 1,
+    "rays": false
+   },
+   "camera": {},
+   "elements": [
+    {
+     "type": "meter",
+     "title": "Depth of the wreck",
+     "value": 0.5,
+     "number": 5500,
+     "unit": "m",
+     "sub": "found in 2017 \u00b7 Philippine Sea",
+     "t0": 3.3800000000000003,
+     "dur": 1.0
+    },
+    {
+     "type": "tag",
+     "text": "2017",
+     "t0": 0.2
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 105.25,
+   "end": 112.59,
+   "bg": {
+    "depth": 1,
+    "rays": false,
+    "spotlight": {
+     "x": 1000,
+     "w": 520
+    },
+    "seabed": "dark",
+    "seabedY": 860
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.15,
+    "x": 1000,
+    "y": 760
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 1000,
+     "y": 800,
+     "scale": 0.7,
+     "inner": "<path fill=\"#66727a\"  d=\"M-440,-54 L470,-62 L440,-10 L400,40 C200,58 -200,58 -420,46 Z\"/><path fill=\"#3d474e\" opacity=\".5\" d=\"M-420,20 L420,14 L400,40 C200,58 -200,58 -420,46 Z\"/><rect x=\"-130\" y=\"-122\" width=\"230\" height=\"70\" fill=\"#7d8a92\" /><path fill=\"#7d8a92\"  d=\"M40,-122 L40,-196 L70,-214 L112,-214 L112,-122 Z\"/><rect x=\"84\" y=\"-300\" width=\"8\" height=\"90\" fill=\"#3d474e\" /><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M60,-270 L116,-270\"/><path fill=\"#3d474e\"  d=\"M-70,-122 L-78,-200 L-34,-200 L-26,-122 Z\"/><path fill=\"#3d474e\"  d=\"M-165,-122 L-173,-200 L-129,-200 L-121,-122 Z\"/><path fill=\"#3d474e\"  d=\"M156,-54 L162,-86 L220,-86 L226,-54 Z\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M190,-82 L280,-88\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M190,-74 L280,-80\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M190,-66 L280,-72\"/><path fill=\"#3d474e\"  d=\"M251,-54 L257,-86 L315,-86 L321,-54 Z\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M285,-82 L375,-88\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M285,-74 L375,-80\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M285,-66 L375,-72\"/><path fill=\"#3d474e\"  d=\"M-334,-54 L-328,-86 L-270,-86 L-264,-54 Z\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M-300,-82 L-390,-88\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M-300,-74 L-390,-80\"/><path stroke=\"#3d474e\" stroke-width=\"5\" d=\"M-300,-66 L-390,-72\"/><path fill=\"none\" stroke=\"#3d474e\" stroke-width=\"2\" opacity=\".7\" d=\"M88,-300 L-300,-54 M88,-300 L440,-58\"/>",
+     "bob": 0,
+     "rotate": 5,
+     "opacity": 0.85
+    },
+    {
+     "type": "caption",
+     "text": "*still there*",
+     "pos": "top",
+     "t0": 0.57,
+     "t1": 1.5599999999999998
+    },
+    {
+     "type": "caption",
+     "text": "with the men who *never left her*",
+     "pos": "top",
+     "t0": 3.86
+    }
+   ],
+   "fadeOut": 1.4
+  }
+ ]
+}

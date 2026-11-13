@@ -403,7 +403,9 @@
     // fade from/to black around shot edges if requested
     const fin = shot.fadeIn ? 1 - prog(lt, 0, shot.fadeIn) : 0, fout = shot.fadeOut ? prog(lt, dur - shot.fadeOut, shot.fadeOut) : 0;
     const grain = spec.grain ?? .05;
-    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${spec.width || 1920}" height="${spec.height || 1080}" style="display:block;background:#000">
+    // portrait output (e.g. 1080x1920 Shorts) shows the centred column of the 1920x1080 world instead of letterboxing it
+    const ow = spec.width || 1920, oh = spec.height || 1080, vw = oh > ow ? H * ow / oh : W;
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${(W - vw) / 2} 0 ${vw} ${H}" width="${spec.width || 1920}" height="${spec.height || 1080}" style="display:block;background:#000">
       <g transform="translate(${fx + px} ${fy + py}) scale(${z}) translate(${-fx} ${-fy})">${background(P, shot.bg || {}, t, cam)}${world.join('')}</g>
       ${over.join('')}
       <defs><radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="${shot.vignette ?? .75}"/></radialGradient>

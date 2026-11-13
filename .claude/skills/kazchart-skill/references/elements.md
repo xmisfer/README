@@ -10,7 +10,7 @@
   "shots": [ { "start": 0, "end": 4, "bg": {}, "camera": {}, "fadeIn": 0.5, "fadeOut": 0, "vignette": 0.75, "elements": [] } ]
 }
 ```
-All coordinates are in a 1920x1080 world, whatever the output size. Element times (`t0`, `t1`, `check`, `t`) are **seconds from the start of the shot**. Most elements accept `t0` (appear), `t1` (disappear) and `fade`.
+All coordinates are in a 1920x1080 world, whatever the output size. Portrait output (height > width, e.g. 1080x1920) shows the centred column of that world: x 656–1264 at 9:16. Element times (`t0`, `t1`, `check`, `t`) are **seconds from the start of the shot**. Most elements accept `t0` (appear), `t1` (disappear) and `fade`.
 
 ## Shot `bg`
 | field | meaning |

@@ -1,0 +1,1308 @@
+{
+ "preset": "abyss",
+ "width": 1920,
+ "height": 1080,
+ "fps": 30,
+ "grain": 0.05,
+ "tokens": {
+  "creature": {
+   "whale": [
+    "#8f8e8a",
+    "#6f6e6a",
+    "#b5b4ae"
+   ],
+   "fish": [
+    "#7f97a6",
+    "#c3d2da",
+    "#4c606c"
+   ],
+   "blob": [
+    "#3b2a1f",
+    "#3b2a1f",
+    "#3b2a1f"
+   ]
+  }
+ },
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 5.71,
+   "bg": {
+    "depth": 0.85,
+    "sun": {
+     "x": 980,
+     "y": -120,
+     "r": 760
+    },
+    "surface": true
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.12
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": 260,
+     "y": 640,
+     "scale": 1.6,
+     "swim": {
+      "vx": 46
+     },
+     "mode": "silhouette"
+    },
+    {
+     "type": "tag",
+     "text": "1820",
+     "t0": 0.3
+    },
+    {
+     "type": "caption",
+     "text": "a whale did the *impossible*",
+     "t0": 2.69
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 5.71,
+   "end": 9.39,
+   "bg": {
+    "depth": 0.75,
+    "sun": {
+     "x": 1250,
+     "y": -80,
+     "r": 620
+    },
+    "surface": true
+   },
+   "camera": {
+    "zoomFrom": 1.05,
+    "zoomTo": 1.15
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 1240,
+     "y": 128.2,
+     "scale": 1.35,
+     "bob": 3,
+     "mode": "silhouette",
+     "inner": "<path fill=\"#05090d\" d=\"M-222,-52 L232,-58 L206,0 C186,50 110,64 0,64 C-120,64 -186,54 -206,16 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"6\" d=\"M226,-56 L330,-118\"/><rect x=\"-122\" y=\"-352\" width=\"8\" height=\"300\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-204.0,-95 L-32.0,-95 L-42.31999999999999,-170 L-193.68,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-188.0,-180 L-48.0,-180 L-56.4,-245 L-179.6,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-168.0,-255 L-68.0,-255 L-74.0,-305 L-162.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M-118,-352 L-238,-52 M-118,-352 L2,-52\"/><rect x=\"14\" y=\"-397\" width=\"8\" height=\"345\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-68.0,-95 L104.0,-95 L93.68,-170 L-57.68000000000001,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-52.0,-180 L88.0,-180 L79.6,-245 L-43.6,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-32.0,-255 L68.0,-255 L62.0,-305 L-26.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M18,-397 L-102,-52 M18,-397 L138,-52\"/><rect x=\"138\" y=\"-337\" width=\"8\" height=\"285\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M56.0,-95 L228.0,-95 L217.68,-170 L66.32,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M72.0,-180 L212.0,-180 L203.6,-245 L80.4,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M92.0,-255 L192.0,-255 L186.0,-305 L98.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M142,-337 L22,-52 M142,-337 L262,-52\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M150,-320 L320,-116 L170,-90 Z\"/>",
+     "swim": {
+      "vx": 8
+     }
+    },
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": 380,
+     "y": 760,
+     "scale": 1.2,
+     "rotate": -20,
+     "moveTo": {
+      "x": 900,
+      "y": 420,
+      "dur": 3.2,
+      "t0": 0
+     },
+     "mode": "silhouette"
+    },
+    {
+     "type": "caption",
+     "text": "it *hunted* a ship",
+     "t0": 0.39,
+     "t1": 1.8499999999999999
+    },
+    {
+     "type": "stamp",
+     "text": "And it won",
+     "x": 1420,
+     "y": 640,
+     "t0": 2.58
+    }
+   ]
+  },
+  {
+   "start": 9.39,
+   "end": 15.13,
+   "bg": {
+    "depth": 0.35
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08,
+    "x": 900,
+    "y": 420
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<defs><linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#18303f\"/><stop offset=\"1\" stop-color=\"#6d8e9c\"/></linearGradient></defs><rect x=\"-600\" y=\"-600\" width=\"3120\" height=\"1030\" fill=\"url(#sky)\"/><circle cx=\"1480\" cy=\"250\" r=\"70\" fill=\"#e9f3f2\" opacity=\".55\"/><circle cx=\"1480\" cy=\"250\" r=\"160\" fill=\"#e9f3f2\" opacity=\".08\"/>"
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 780,
+     "y": 410,
+     "scale": 1.25,
+     "bob": 3,
+     "inner": "<path fill=\"#3b2a1f\" d=\"M-222,-52 L232,-58 L206,0 C186,50 110,64 0,64 C-120,64 -186,54 -206,16 Z\"/><rect x=\"-205\" y=\"-44\" width=\"420\" height=\"9\" fill=\"#e8e2d2\" opacity=\".85\"/><rect x=\"-180\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"-134\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"-88\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"-42\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"4\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"50\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"96\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"142\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"188\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><path fill=\"none\" stroke=\"#2a1d15\" stroke-width=\"6\" d=\"M226,-56 L330,-118\"/><rect x=\"-122\" y=\"-352\" width=\"8\" height=\"300\" fill=\"#2a1d15\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-204.0,-95 L-32.0,-95 L-42.31999999999999,-170 L-193.68,-170 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-188.0,-180 L-48.0,-180 L-56.4,-245 L-179.6,-245 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-168.0,-255 L-68.0,-255 L-74.0,-305 L-162.0,-305 Z\"/><path fill=\"none\" stroke=\"#2a1d15\" stroke-width=\"2\" opacity=\".7\" d=\"M-118,-352 L-238,-52 M-118,-352 L2,-52\"/><rect x=\"14\" y=\"-397\" width=\"8\" height=\"345\" fill=\"#2a1d15\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-68.0,-95 L104.0,-95 L93.68,-170 L-57.68000000000001,-170 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-52.0,-180 L88.0,-180 L79.6,-245 L-43.6,-245 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-32.0,-255 L68.0,-255 L62.0,-305 L-26.0,-305 Z\"/><path fill=\"none\" stroke=\"#2a1d15\" stroke-width=\"2\" opacity=\".7\" d=\"M18,-397 L-102,-52 M18,-397 L138,-52\"/><rect x=\"138\" y=\"-337\" width=\"8\" height=\"285\" fill=\"#2a1d15\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M56.0,-95 L228.0,-95 L217.68,-170 L66.32,-170 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M72.0,-180 L212.0,-180 L203.6,-245 L80.4,-245 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M92.0,-255 L192.0,-255 L186.0,-305 L98.0,-305 Z\"/><path fill=\"none\" stroke=\"#2a1d15\" stroke-width=\"2\" opacity=\".7\" d=\"M142,-337 L22,-52 M142,-337 L262,-52\"/><path fill=\"#dcd3bd\" opacity=\"0.9\" d=\"M150,-320 L320,-116 L170,-90 Z\"/>",
+     "swim": {
+      "vx": 14
+     }
+    },
+    {
+     "type": "svg",
+     "markup": "<rect x=\"-600\" y=\"430\" width=\"3120\" height=\"1400\" fill=\"#17465d\" opacity=\".42\"/><path fill=\"none\" stroke=\"#cfe9f2\" stroke-width=\"4\" opacity=\".55\" d=\"M-600,430 Q-540,422 -480,430 Q-420,422 -360,430 Q-300,422 -240,430 Q-180,422 -120,430 Q-60,422 0,430 Q60,422 120,430 Q180,422 240,430 Q300,422 360,430 Q420,422 480,430 Q540,422 600,430 Q660,422 720,430 Q780,422 840,430 Q900,422 960,430 Q1020,422 1080,430 Q1140,422 1200,430 Q1260,422 1320,430 Q1380,422 1440,430 Q1500,422 1560,430 Q1620,422 1680,430 Q1740,422 1800,430 Q1860,422 1920,430 Q1980,422 2040,430 Q2100,422 2160,430 Q2220,422 2280,430 Q2340,422 2400,430 Q2460,422 2520,430\"/>"
+    },
+    {
+     "type": "tag",
+     "text": "20 November 1820",
+     "t0": 0.25
+    },
+    {
+     "type": "caption",
+     "text": "the middle of the *pacific*",
+     "t0": 4.43
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 15.13,
+   "end": 20.66,
+   "bg": {
+    "depth": 0.35
+   },
+   "camera": {
+    "zoomFrom": 1.15,
+    "zoomTo": 1.3,
+    "x": 900,
+    "y": 360
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<defs><linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#18303f\"/><stop offset=\"1\" stop-color=\"#6d8e9c\"/></linearGradient></defs><rect x=\"-600\" y=\"-600\" width=\"3120\" height=\"1030\" fill=\"url(#sky)\"/><circle cx=\"1480\" cy=\"250\" r=\"70\" fill=\"#e9f3f2\" opacity=\".55\"/><circle cx=\"1480\" cy=\"250\" r=\"160\" fill=\"#e9f3f2\" opacity=\".08\"/>"
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 820,
+     "y": 410,
+     "scale": 1.25,
+     "bob": 3,
+     "inner": "<path fill=\"#3b2a1f\" d=\"M-222,-52 L232,-58 L206,0 C186,50 110,64 0,64 C-120,64 -186,54 -206,16 Z\"/><rect x=\"-205\" y=\"-44\" width=\"420\" height=\"9\" fill=\"#e8e2d2\" opacity=\".85\"/><rect x=\"-180\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"-134\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"-88\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"-42\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"4\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"50\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"96\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"142\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"188\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><path fill=\"none\" stroke=\"#2a1d15\" stroke-width=\"6\" d=\"M226,-56 L330,-118\"/><rect x=\"-122\" y=\"-352\" width=\"8\" height=\"300\" fill=\"#2a1d15\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-204.0,-95 L-32.0,-95 L-42.31999999999999,-170 L-193.68,-170 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-188.0,-180 L-48.0,-180 L-56.4,-245 L-179.6,-245 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-168.0,-255 L-68.0,-255 L-74.0,-305 L-162.0,-305 Z\"/><path fill=\"none\" stroke=\"#2a1d15\" stroke-width=\"2\" opacity=\".7\" d=\"M-118,-352 L-238,-52 M-118,-352 L2,-52\"/><rect x=\"14\" y=\"-397\" width=\"8\" height=\"345\" fill=\"#2a1d15\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-68.0,-95 L104.0,-95 L93.68,-170 L-57.68000000000001,-170 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-52.0,-180 L88.0,-180 L79.6,-245 L-43.6,-245 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-32.0,-255 L68.0,-255 L62.0,-305 L-26.0,-305 Z\"/><path fill=\"none\" stroke=\"#2a1d15\" stroke-width=\"2\" opacity=\".7\" d=\"M18,-397 L-102,-52 M18,-397 L138,-52\"/><rect x=\"138\" y=\"-337\" width=\"8\" height=\"285\" fill=\"#2a1d15\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M56.0,-95 L228.0,-95 L217.68,-170 L66.32,-170 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M72.0,-180 L212.0,-180 L203.6,-245 L80.4,-245 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M92.0,-255 L192.0,-255 L186.0,-305 L98.0,-305 Z\"/><path fill=\"none\" stroke=\"#2a1d15\" stroke-width=\"2\" opacity=\".7\" d=\"M142,-337 L22,-52 M142,-337 L262,-52\"/><path fill=\"#dcd3bd\" opacity=\"0.9\" d=\"M150,-320 L320,-116 L170,-90 Z\"/>",
+     "swim": {
+      "vx": 10
+     }
+    },
+    {
+     "type": "svg",
+     "markup": "<rect x=\"-600\" y=\"430\" width=\"3120\" height=\"1400\" fill=\"#17465d\" opacity=\".42\"/><path fill=\"none\" stroke=\"#cfe9f2\" stroke-width=\"4\" opacity=\".55\" d=\"M-600,430 Q-540,422 -480,430 Q-420,422 -360,430 Q-300,422 -240,430 Q-180,422 -120,430 Q-60,422 0,430 Q60,422 120,430 Q180,422 240,430 Q300,422 360,430 Q420,422 480,430 Q540,422 600,430 Q660,422 720,430 Q780,422 840,430 Q900,422 960,430 Q1020,422 1080,430 Q1140,422 1200,430 Q1260,422 1320,430 Q1380,422 1440,430 Q1500,422 1560,430 Q1620,422 1680,430 Q1740,422 1800,430 Q1860,422 1920,430 Q1980,422 2040,430 Q2100,422 2160,430 Q2220,422 2280,430 Q2340,422 2400,430 Q2460,422 2520,430\"/>"
+    },
+    {
+     "type": "factstack",
+     "size": 27,
+     "x": 90,
+     "y": 760,
+     "w": 520,
+     "items": [
+      {
+       "text": "Whaleship Essex",
+       "t0": 1.11
+      },
+      {
+       "text": "Out of Nantucket",
+       "t0": 2.09
+      },
+      {
+       "text": "15 months at sea",
+       "t0": 3.07
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 20.66,
+   "end": 25.99,
+   "bg": {
+    "depth": 0.55
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.1,
+    "panX": -60
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": 380,
+     "y": 600,
+     "scale": 1.5,
+     "swim": {
+      "vx": 34
+     }
+    },
+    {
+     "type": "school",
+     "kind": "fish",
+     "x": 1450,
+     "y": 330,
+     "w": 380,
+     "h": 140,
+     "count": 14,
+     "scale": 0.12,
+     "swim": {
+      "vx": -20
+     },
+     "flip": true,
+     "dim": true
+    },
+    {
+     "type": "caption",
+     "text": "the most *valuable* animal in the ocean",
+     "pos": "top",
+     "t0": 2.95
+    }
+   ]
+  },
+  {
+   "start": 25.99,
+   "end": 27.86,
+   "bg": {
+    "depth": 0.6,
+    "spotlight": {
+     "x": 980,
+     "w": 520
+    }
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.18,
+    "x": 1000
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": 880,
+     "y": 560,
+     "scale": 1.9,
+     "swim": {
+      "vx": 8
+     }
+    },
+    {
+     "type": "namecard",
+     "title": "SPERM WHALE",
+     "sub": "Physeter macrocephalus",
+     "x": 960,
+     "y": 900,
+     "w": 440,
+     "t0": 0.5
+    }
+   ]
+  },
+  {
+   "start": 27.86,
+   "end": 33.74,
+   "bg": {
+    "depth": 0.65
+   },
+   "camera": {},
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": 560,
+     "y": 600,
+     "scale": 1.7,
+     "swim": {
+      "vx": 6
+     }
+    },
+    {
+     "type": "circle",
+     "x": 840,
+     "y": 600,
+     "rx": 170,
+     "ry": 120,
+     "t0": 0.85
+    },
+    {
+     "type": "factstack",
+     "size": 27,
+     "x": 1200,
+     "y": 440,
+     "w": 560,
+     "items": [
+      {
+       "text": "Spermaceti oil",
+       "t0": 2.14
+      },
+      {
+       "text": "Lamps & candles",
+       "t0": 3.36
+      },
+      {
+       "text": "Worth a fortune",
+       "t0": 5.16
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 33.74,
+   "end": 40.19,
+   "bg": {
+    "depth": 0.3,
+    "sun": {
+     "x": 720,
+     "y": -60,
+     "r": 560
+    },
+    "surface": true
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08
+   },
+   "elements": [
+    {
+     "type": "school",
+     "kind": "whale",
+     "mode": "silhouette",
+     "x": 900,
+     "y": 660,
+     "w": 1000,
+     "h": 260,
+     "count": 5,
+     "scale": 0.6,
+     "swim": {
+      "vx": 40
+     },
+     "seed": 3
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "mode": "silhouette",
+     "x": 380,
+     "y": 82.68,
+     "scale": 0.42,
+     "inner": "<path fill=\"#05090d\" d=\"M-196,-54 L196,-54 L176,8 C120,58 -120,58 -176,8 Z\"/><circle cx=\"-120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-132\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-120,-62 L-190,60\"/><circle cx=\"-60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-72\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-60,-62 L-130,60\"/><circle cx=\"0\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-12\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M0,-62 L-70,60\"/><circle cx=\"60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"48\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M60,-62 L-10,60\"/><circle cx=\"120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"108\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M120,-62 L50,60\"/>",
+     "swim": {
+      "vx": 70
+     },
+     "t0": 3.03
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "mode": "silhouette",
+     "x": 760,
+     "y": 82.68,
+     "scale": 0.42,
+     "inner": "<path fill=\"#05090d\" d=\"M-196,-54 L196,-54 L176,8 C120,58 -120,58 -176,8 Z\"/><circle cx=\"-120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-132\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-120,-62 L-190,60\"/><circle cx=\"-60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-72\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-60,-62 L-130,60\"/><circle cx=\"0\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-12\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M0,-62 L-70,60\"/><circle cx=\"60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"48\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M60,-62 L-10,60\"/><circle cx=\"120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"108\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M120,-62 L50,60\"/>",
+     "swim": {
+      "vx": 66
+     },
+     "t0": 3.3299999999999996,
+     "phase": 2
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "mode": "silhouette",
+     "x": 1140,
+     "y": 82.68,
+     "scale": 0.42,
+     "inner": "<path fill=\"#05090d\" d=\"M-196,-54 L196,-54 L176,8 C120,58 -120,58 -176,8 Z\"/><circle cx=\"-120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-132\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-120,-62 L-190,60\"/><circle cx=\"-60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-72\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-60,-62 L-130,60\"/><circle cx=\"0\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-12\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M0,-62 L-70,60\"/><circle cx=\"60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"48\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M60,-62 L-10,60\"/><circle cx=\"120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"108\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M120,-62 L50,60\"/>",
+     "swim": {
+      "vx": 72
+     },
+     "t0": 3.63,
+     "phase": 4
+    },
+    {
+     "type": "tag",
+     "text": "The hunt",
+     "t0": 0.2
+    },
+    {
+     "type": "caption",
+     "text": "the men *give chase*",
+     "t0": 5.76
+    }
+   ]
+  },
+  {
+   "start": 40.19,
+   "end": 44.59,
+   "bg": {
+    "depth": 0.62
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.15,
+    "x": 900
+   },
+   "elements": [
+    {
+     "type": "school",
+     "kind": "whale",
+     "mode": "silhouette",
+     "x": 1500,
+     "y": 300,
+     "w": 500,
+     "h": 160,
+     "count": 3,
+     "scale": 0.35,
+     "swim": {
+      "vx": 60
+     },
+     "dim": true,
+     "seed": 9
+    },
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": 760,
+     "y": 600,
+     "scale": 2.3,
+     "swim": {
+      "vx": 4
+     }
+    },
+    {
+     "type": "caption",
+     "text": "one whale *stays behind*",
+     "t0": 1.35
+    }
+   ]
+  },
+  {
+   "start": 44.59,
+   "end": 48.56,
+   "bg": {
+    "depth": 0.66,
+    "seabed": "dark",
+    "seabedY": 940
+   },
+   "camera": {},
+   "elements": [
+    {
+     "type": "gridlines",
+     "lines": [
+      {
+       "y": 260,
+       "label": "25 m"
+      },
+      {
+       "y": 900,
+       "label": "0 m"
+      }
+     ],
+     "t0": 0
+    },
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": 900,
+     "y": 540,
+     "scale": 2.0,
+     "swim": {
+      "vx": 2
+     },
+     "bob": 2
+    },
+    {
+     "type": "bracket",
+     "x1": 390,
+     "y1": 720,
+     "x2": 1280,
+     "y2": 720,
+     "label": "~26 M \u00b7 85 FT",
+     "t0": 2.18
+    },
+    {
+     "type": "pill",
+     "text": "The first mate's estimate",
+     "x": 90,
+     "y": 120,
+     "t0": 0.81,
+     "size": 26
+    },
+    {
+     "type": "pill",
+     "text": "Most adult males: ~16 m",
+     "x": 1180,
+     "y": 120,
+     "t0": 3.7399999999999998,
+     "size": 26
+    }
+   ]
+  },
+  {
+   "start": 48.56,
+   "end": 52.55,
+   "bg": {
+    "depth": 0.72,
+    "sun": {
+     "x": 1350,
+     "y": -100,
+     "r": 520
+    },
+    "surface": true
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.12,
+    "x": 1360,
+    "y": 150
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 1360,
+     "y": 130.8,
+     "scale": 1.4,
+     "bob": 3,
+     "mode": "silhouette",
+     "inner": "<path fill=\"#05090d\" d=\"M-222,-52 L232,-58 L206,0 C186,50 110,64 0,64 C-120,64 -186,54 -206,16 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"6\" d=\"M226,-56 L330,-118\"/><rect x=\"-122\" y=\"-352\" width=\"8\" height=\"300\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-204.0,-95 L-32.0,-95 L-42.31999999999999,-170 L-193.68,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-188.0,-180 L-48.0,-180 L-56.4,-245 L-179.6,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-168.0,-255 L-68.0,-255 L-74.0,-305 L-162.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M-118,-352 L-238,-52 M-118,-352 L2,-52\"/><rect x=\"14\" y=\"-397\" width=\"8\" height=\"345\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-68.0,-95 L104.0,-95 L93.68,-170 L-57.68000000000001,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-52.0,-180 L88.0,-180 L79.6,-245 L-43.6,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-32.0,-255 L68.0,-255 L62.0,-305 L-26.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M18,-397 L-102,-52 M18,-397 L138,-52\"/><rect x=\"138\" y=\"-337\" width=\"8\" height=\"285\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M56.0,-95 L228.0,-95 L217.68,-170 L66.32,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M72.0,-180 L212.0,-180 L203.6,-245 L80.4,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M92.0,-255 L192.0,-255 L186.0,-305 L98.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M142,-337 L22,-52 M142,-337 L262,-52\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M150,-320 L320,-116 L170,-90 Z\"/>",
+     "swim": {
+      "vx": 4
+     }
+    },
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": 240,
+     "y": 420,
+     "scale": 1.1,
+     "rotate": -9,
+     "swim": {
+      "vx": 30
+     },
+     "mode": "silhouette"
+    },
+    {
+     "type": "caption",
+     "text": "it isn't *fleeing*",
+     "t0": 0.85,
+     "t1": 1.72
+    },
+    {
+     "type": "caption",
+     "text": "it's !lining up!",
+     "t0": 2.16
+    },
+    {
+     "type": "reticle",
+     "x": 1360,
+     "y": 150,
+     "r": 90,
+     "t0": 3.38
+    }
+   ]
+  },
+  {
+   "start": 52.55,
+   "end": 56.14,
+   "bg": {
+    "depth": 0.72,
+    "sun": {
+     "x": 1300,
+     "y": -100,
+     "r": 520
+    },
+    "surface": true
+   },
+   "camera": {
+    "zoomFrom": 1.1,
+    "zoomTo": 1.2,
+    "x": 1300,
+    "y": 200
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 1100,
+     "y": 130.8,
+     "scale": 1.4,
+     "bob": 3,
+     "mode": "silhouette",
+     "inner": "<path fill=\"#05090d\" d=\"M-222,-52 L232,-58 L206,0 C186,50 110,64 0,64 C-120,64 -186,54 -206,16 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"6\" d=\"M226,-56 L330,-118\"/><rect x=\"-122\" y=\"-352\" width=\"8\" height=\"300\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-204.0,-95 L-32.0,-95 L-42.31999999999999,-170 L-193.68,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-188.0,-180 L-48.0,-180 L-56.4,-245 L-179.6,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-168.0,-255 L-68.0,-255 L-74.0,-305 L-162.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M-118,-352 L-238,-52 M-118,-352 L2,-52\"/><rect x=\"14\" y=\"-397\" width=\"8\" height=\"345\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-68.0,-95 L104.0,-95 L93.68,-170 L-57.68000000000001,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-52.0,-180 L88.0,-180 L79.6,-245 L-43.6,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-32.0,-255 L68.0,-255 L62.0,-305 L-26.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M18,-397 L-102,-52 M18,-397 L138,-52\"/><rect x=\"138\" y=\"-337\" width=\"8\" height=\"285\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M56.0,-95 L228.0,-95 L217.68,-170 L66.32,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M72.0,-180 L212.0,-180 L203.6,-245 L80.4,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M92.0,-255 L192.0,-255 L186.0,-305 L98.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M142,-337 L22,-52 M142,-337 L262,-52\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M150,-320 L320,-116 L170,-90 Z\"/>"
+    },
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": 520,
+     "y": 540,
+     "scale": 1.1,
+     "rotate": -14,
+     "moveTo": {
+      "x": 1176,
+      "y": 200,
+      "dur": 0.9,
+      "t0": 0.38
+     },
+     "mode": "silhouette"
+    },
+    {
+     "type": "stamp",
+     "text": "Impact",
+     "x": 1460,
+     "y": 560,
+     "t0": 1.28
+    },
+    {
+     "type": "caption",
+     "text": "the ship *shudders*",
+     "t0": 2.64
+    }
+   ]
+  },
+  {
+   "start": 56.14,
+   "end": 60.05,
+   "bg": {
+    "depth": 0.85,
+    "rays": false
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.1
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": 1300,
+     "y": 620,
+     "scale": 1.3,
+     "flip": true,
+     "swim": {
+      "vx": -110
+     },
+     "mode": "silhouette"
+    },
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": -300,
+     "y": 520,
+     "scale": 1.3,
+     "swim": {
+      "vx": 520
+     },
+     "t0": 2.75,
+     "mode": "silhouette"
+    },
+    {
+     "type": "caption",
+     "text": "it comes back *faster*",
+     "t0": 3.11
+    }
+   ]
+  },
+  {
+   "start": 60.05,
+   "end": 61.65,
+   "bg": {
+    "depth": 0.72,
+    "sun": {
+     "x": 1300,
+     "y": -100,
+     "r": 520
+    },
+    "surface": true
+   },
+   "camera": {
+    "zoomFrom": 1.15,
+    "zoomTo": 1.25,
+    "x": 1300,
+    "y": 200
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 1100,
+     "y": 130.8,
+     "scale": 1.4,
+     "bob": 3,
+     "mode": "silhouette",
+     "inner": "<path fill=\"#05090d\" d=\"M-222,-52 L232,-58 L206,0 C186,50 110,64 0,64 C-120,64 -186,54 -206,16 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"6\" d=\"M226,-56 L330,-118\"/><rect x=\"-122\" y=\"-352\" width=\"8\" height=\"300\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-204.0,-95 L-32.0,-95 L-42.31999999999999,-170 L-193.68,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-188.0,-180 L-48.0,-180 L-56.4,-245 L-179.6,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-168.0,-255 L-68.0,-255 L-74.0,-305 L-162.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M-118,-352 L-238,-52 M-118,-352 L2,-52\"/><rect x=\"14\" y=\"-397\" width=\"8\" height=\"345\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-68.0,-95 L104.0,-95 L93.68,-170 L-57.68000000000001,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-52.0,-180 L88.0,-180 L79.6,-245 L-43.6,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-32.0,-255 L68.0,-255 L62.0,-305 L-26.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M18,-397 L-102,-52 M18,-397 L138,-52\"/><rect x=\"138\" y=\"-337\" width=\"8\" height=\"285\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M56.0,-95 L228.0,-95 L217.68,-170 L66.32,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M72.0,-180 L212.0,-180 L203.6,-245 L80.4,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M92.0,-255 L192.0,-255 L186.0,-305 L98.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M142,-337 L22,-52 M142,-337 L262,-52\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M150,-320 L320,-116 L170,-90 Z\"/>",
+     "rotate": 3
+    },
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": 700,
+     "y": 420,
+     "scale": 1.1,
+     "rotate": -12,
+     "moveTo": {
+      "x": 1176,
+      "y": 205,
+      "dur": 0.6,
+      "t0": 0.33
+     },
+     "mode": "silhouette"
+    },
+    {
+     "type": "stamp",
+     "text": "Again",
+     "x": 1400,
+     "y": 560,
+     "t0": 0.98
+    }
+   ]
+  },
+  {
+   "start": 61.65,
+   "end": 67.77,
+   "bg": {
+    "depth": 0.45
+   },
+   "camera": {
+    "zoomFrom": 1.05,
+    "zoomTo": 1.2,
+    "x": 900,
+    "y": 440
+   },
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<defs><linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#18303f\"/><stop offset=\"1\" stop-color=\"#6d8e9c\"/></linearGradient></defs><rect x=\"-600\" y=\"-600\" width=\"3120\" height=\"1030\" fill=\"url(#sky)\"/><circle cx=\"1480\" cy=\"250\" r=\"70\" fill=\"#e9f3f2\" opacity=\".55\"/><circle cx=\"1480\" cy=\"250\" r=\"160\" fill=\"#e9f3f2\" opacity=\".08\"/>"
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 800,
+     "y": 410,
+     "scale": 1.25,
+     "bob": 1,
+     "inner": "<path fill=\"#3b2a1f\" d=\"M-222,-52 L232,-58 L206,0 C186,50 110,64 0,64 C-120,64 -186,54 -206,16 Z\"/><rect x=\"-205\" y=\"-44\" width=\"420\" height=\"9\" fill=\"#e8e2d2\" opacity=\".85\"/><rect x=\"-180\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"-134\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"-88\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"-42\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"4\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"50\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"96\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"142\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><rect x=\"188\" y=\"-44\" width=\"14\" height=\"9\" fill=\"#3b2a1f\"/><path fill=\"none\" stroke=\"#2a1d15\" stroke-width=\"6\" d=\"M226,-56 L330,-118\"/><rect x=\"-122\" y=\"-352\" width=\"8\" height=\"300\" fill=\"#2a1d15\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-204.0,-95 L-32.0,-95 L-42.31999999999999,-170 L-193.68,-170 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-188.0,-180 L-48.0,-180 L-56.4,-245 L-179.6,-245 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-168.0,-255 L-68.0,-255 L-74.0,-305 L-162.0,-305 Z\"/><path fill=\"none\" stroke=\"#2a1d15\" stroke-width=\"2\" opacity=\".7\" d=\"M-118,-352 L-238,-52 M-118,-352 L2,-52\"/><rect x=\"14\" y=\"-397\" width=\"8\" height=\"345\" fill=\"#2a1d15\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-68.0,-95 L104.0,-95 L93.68,-170 L-57.68000000000001,-170 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-52.0,-180 L88.0,-180 L79.6,-245 L-43.6,-245 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M-32.0,-255 L68.0,-255 L62.0,-305 L-26.0,-305 Z\"/><path fill=\"none\" stroke=\"#2a1d15\" stroke-width=\"2\" opacity=\".7\" d=\"M18,-397 L-102,-52 M18,-397 L138,-52\"/><rect x=\"138\" y=\"-337\" width=\"8\" height=\"285\" fill=\"#2a1d15\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M56.0,-95 L228.0,-95 L217.68,-170 L66.32,-170 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M72.0,-180 L212.0,-180 L203.6,-245 L80.4,-245 Z\"/><path fill=\"#dcd3bd\" opacity=\"0.96\" d=\"M92.0,-255 L192.0,-255 L186.0,-305 L98.0,-305 Z\"/><path fill=\"none\" stroke=\"#2a1d15\" stroke-width=\"2\" opacity=\".7\" d=\"M142,-337 L22,-52 M142,-337 L262,-52\"/><path fill=\"#dcd3bd\" opacity=\"0.9\" d=\"M150,-320 L320,-116 L170,-90 Z\"/>",
+     "rotate": 9,
+     "moveTo": {
+      "x": 830,
+      "y": 570,
+      "dur": 6.119999999999997,
+      "t0": 0
+     }
+    },
+    {
+     "type": "svg",
+     "markup": "<rect x=\"-600\" y=\"430\" width=\"3120\" height=\"1400\" fill=\"#17465d\" opacity=\".42\"/><path fill=\"none\" stroke=\"#cfe9f2\" stroke-width=\"4\" opacity=\".55\" d=\"M-600,430 Q-540,422 -480,430 Q-420,422 -360,430 Q-300,422 -240,430 Q-180,422 -120,430 Q-60,422 0,430 Q60,422 120,430 Q180,422 240,430 Q300,422 360,430 Q420,422 480,430 Q540,422 600,430 Q660,422 720,430 Q780,422 840,430 Q900,422 960,430 Q1020,422 1080,430 Q1140,422 1200,430 Q1260,422 1320,430 Q1380,422 1440,430 Q1500,422 1560,430 Q1620,422 1680,430 Q1740,422 1800,430 Q1860,422 1920,430 Q1980,422 2040,430 Q2100,422 2160,430 Q2220,422 2280,430 Q2340,422 2400,430 Q2460,422 2520,430\"/>"
+    },
+    {
+     "type": "circle",
+     "x": 1080,
+     "y": 470,
+     "rx": 120,
+     "ry": 90,
+     "t0": 1.11,
+     "t1": 2.58
+    },
+    {
+     "type": "tag",
+     "text": "Minutes",
+     "t0": 3.02
+    },
+    {
+     "type": "caption",
+     "text": "the essex is *sinking*",
+     "t0": 5.05
+    }
+   ]
+  },
+  {
+   "start": 67.77,
+   "end": 74.81,
+   "bg": {
+    "depth": 0.5,
+    "sun": {
+     "x": 1200,
+     "y": -80,
+     "r": 420
+    },
+    "surface": true
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.1,
+    "x": 1200
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "blob",
+     "mode": "silhouette",
+     "x": 1000,
+     "y": 77.28,
+     "scale": 0.32,
+     "inner": "<path fill=\"#05090d\" d=\"M-196,-54 L196,-54 L176,8 C120,58 -120,58 -176,8 Z\"/><circle cx=\"-120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-132\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-120,-62 L-190,60\"/><circle cx=\"-60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-72\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-60,-62 L-130,60\"/><circle cx=\"0\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-12\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M0,-62 L-70,60\"/><circle cx=\"60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"48\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M60,-62 L-10,60\"/><circle cx=\"120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"108\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M120,-62 L50,60\"/>",
+     "swim": {
+      "vx": 6
+     }
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "mode": "silhouette",
+     "x": 1240,
+     "y": 77.28,
+     "scale": 0.32,
+     "inner": "<path fill=\"#05090d\" d=\"M-196,-54 L196,-54 L176,8 C120,58 -120,58 -176,8 Z\"/><circle cx=\"-120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-132\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-120,-62 L-190,60\"/><circle cx=\"-60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-72\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-60,-62 L-130,60\"/><circle cx=\"0\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-12\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M0,-62 L-70,60\"/><circle cx=\"60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"48\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M60,-62 L-10,60\"/><circle cx=\"120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"108\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M120,-62 L50,60\"/>",
+     "swim": {
+      "vx": 6
+     },
+     "phase": 2
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "mode": "silhouette",
+     "x": 1470,
+     "y": 77.28,
+     "scale": 0.32,
+     "inner": "<path fill=\"#05090d\" d=\"M-196,-54 L196,-54 L176,8 C120,58 -120,58 -176,8 Z\"/><circle cx=\"-120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-132\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-120,-62 L-190,60\"/><circle cx=\"-60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-72\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-60,-62 L-130,60\"/><circle cx=\"0\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-12\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M0,-62 L-70,60\"/><circle cx=\"60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"48\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M60,-62 L-10,60\"/><circle cx=\"120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"108\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M120,-62 L50,60\"/>",
+     "swim": {
+      "vx": 6
+     },
+     "phase": 4
+    },
+    {
+     "type": "factstack",
+     "size": 27,
+     "x": 90,
+     "y": 600,
+     "w": 700,
+     "gap": 80,
+     "items": [
+      {
+       "text": "20 men",
+       "t0": 0.18
+      },
+      {
+       "text": "3 whaleboats",
+       "t0": 1.56
+      },
+      {
+       "text": "Thousands of km from land",
+       "t0": 3.21,
+       "tone": "red"
+      }
+     ]
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 74.81,
+   "end": 86.29,
+   "bg": {
+    "depth": 0.82,
+    "rays": false
+   },
+   "camera": {},
+   "elements": [
+    {
+     "type": "checklist",
+     "x": 640,
+     "y": 420,
+     "w": 680,
+     "title": "Their options",
+     "t0": 0.1,
+     "items": [
+      {
+       "text": "Marquesas \u00b7 closest"
+      },
+      {
+       "text": "South America \u00b7 farthest",
+       "check": 10.44
+      }
+     ]
+    },
+    {
+     "type": "redx",
+     "x": 1150,
+     "y": 450,
+     "size": 36,
+     "t0": 5.57
+    },
+    {
+     "type": "pill",
+     "text": "Feared cannibals",
+     "x": 1350,
+     "y": 420,
+     "t0": 5.7700000000000005,
+     "tone": "red",
+     "size": 26
+    },
+    {
+     "type": "caption",
+     "text": "the *longest* route",
+     "pos": "top",
+     "t0": 8.13
+    }
+   ]
+  },
+  {
+   "start": 86.29,
+   "end": 91.51,
+   "bg": {
+    "mode": "black"
+   },
+   "camera": {},
+   "elements": [
+    {
+     "type": "bignumber",
+     "from": 1,
+     "to": 60,
+     "prefix": "DAY ",
+     "x": 960,
+     "y": 470,
+     "size": 130,
+     "color": "#e9eef2",
+     "dur": 5.219999999999999,
+     "t0": 0
+    },
+    {
+     "type": "factstack",
+     "size": 27,
+     "x": 660,
+     "y": 600,
+     "w": 600,
+     "items": [
+      {
+       "text": "Food \u00b7 gone",
+       "t0": 0.48
+      },
+      {
+       "text": "Water \u00b7 gone",
+       "t0": 1.99
+      },
+      {
+       "text": "Men begin to die",
+       "t0": 4.51,
+       "tone": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 91.51,
+   "end": 95.04,
+   "bg": {
+    "mode": "black"
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.05
+   },
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "The unthinkable",
+     "x": 960,
+     "y": 560,
+     "size": 70,
+     "t0": 2.37
+    }
+   ]
+  },
+  {
+   "start": 95.04,
+   "end": 101.64,
+   "bg": {
+    "depth": 0.95,
+    "rays": false,
+    "surface": true
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.12,
+    "x": 960,
+    "y": 200
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "blob",
+     "mode": "silhouette",
+     "x": 960,
+     "y": 92.4,
+     "scale": 0.6,
+     "inner": "<path fill=\"#05090d\" d=\"M-196,-54 L196,-54 L176,8 C120,58 -120,58 -176,8 Z\"/><circle cx=\"-120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-132\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-120,-62 L-190,60\"/><circle cx=\"-60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-72\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-60,-62 L-130,60\"/><circle cx=\"0\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-12\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M0,-62 L-70,60\"/><circle cx=\"60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"48\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M60,-62 L-10,60\"/><circle cx=\"120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"108\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M120,-62 L50,60\"/>",
+     "bob": 6
+    },
+    {
+     "type": "caption",
+     "text": "they drew *lots*",
+     "t0": 3.82
+    }
+   ]
+  },
+  {
+   "start": 101.64,
+   "end": 106.29,
+   "bg": {
+    "depth": 0.2,
+    "sun": {
+     "x": 900,
+     "y": -60,
+     "r": 700
+    },
+    "surface": true
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.1
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "blob",
+     "x": 1500,
+     "y": 120.4,
+     "scale": 1.2,
+     "bob": 3,
+     "mode": "silhouette",
+     "inner": "<path fill=\"#05090d\" d=\"M-222,-52 L232,-58 L206,0 C186,50 110,64 0,64 C-120,64 -186,54 -206,16 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"6\" d=\"M226,-56 L330,-118\"/><rect x=\"-122\" y=\"-352\" width=\"8\" height=\"300\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-204.0,-95 L-32.0,-95 L-42.31999999999999,-170 L-193.68,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-188.0,-180 L-48.0,-180 L-56.4,-245 L-179.6,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-168.0,-255 L-68.0,-255 L-74.0,-305 L-162.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M-118,-352 L-238,-52 M-118,-352 L2,-52\"/><rect x=\"14\" y=\"-397\" width=\"8\" height=\"345\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-68.0,-95 L104.0,-95 L93.68,-170 L-57.68000000000001,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-52.0,-180 L88.0,-180 L79.6,-245 L-43.6,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M-32.0,-255 L68.0,-255 L62.0,-305 L-26.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M18,-397 L-102,-52 M18,-397 L138,-52\"/><rect x=\"138\" y=\"-337\" width=\"8\" height=\"285\" fill=\"#05090d\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M56.0,-95 L228.0,-95 L217.68,-170 L66.32,-170 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M72.0,-180 L212.0,-180 L203.6,-245 L80.4,-245 Z\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M92.0,-255 L192.0,-255 L186.0,-305 L98.0,-305 Z\"/><path fill=\"none\" stroke=\"#05090d\" stroke-width=\"2\" opacity=\".7\" d=\"M142,-337 L22,-52 M142,-337 L262,-52\"/><path fill=\"#05090d\" opacity=\"1\" d=\"M150,-320 L320,-116 L170,-90 Z\"/>",
+     "swim": {
+      "vx": -30
+     },
+     "flip": true
+    },
+    {
+     "type": "creature",
+     "kind": "blob",
+     "mode": "silhouette",
+     "x": 700,
+     "y": 81.6,
+     "scale": 0.4,
+     "inner": "<path fill=\"#05090d\" d=\"M-196,-54 L196,-54 L176,8 C120,58 -120,58 -176,8 Z\"/><circle cx=\"-120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-132\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-120,-62 L-190,60\"/><circle cx=\"-60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-72\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M-60,-62 L-130,60\"/><circle cx=\"0\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"-12\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M0,-62 L-70,60\"/><circle cx=\"60\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"48\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M60,-62 L-10,60\"/><circle cx=\"120\" cy=\"-78\" r=\"15\" fill=\"#05090d\"/><rect x=\"108\" y=\"-70\" width=\"24\" height=\"18\" fill=\"#05090d\"/><path stroke=\"#05090d\" stroke-width=\"7\" stroke-linecap=\"round\" d=\"M120,-62 L50,60\"/>"
+    },
+    {
+     "type": "tag",
+     "text": "February 1821",
+     "t0": 0.2
+    },
+    {
+     "type": "caption",
+     "text": "rescued after *~90 days*",
+     "t0": 0.93
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 106.29,
+   "end": 109.85,
+   "bg": {
+    "depth": 0.55,
+    "rays": false
+   },
+   "camera": {},
+   "elements": [
+    {
+     "type": "bignumber",
+     "from": 20,
+     "to": 8,
+     "x": 960,
+     "y": 600,
+     "size": 240,
+     "t0": 1.18,
+     "dur": 1.0
+    },
+    {
+     "type": "pill",
+     "text": "Out of 20 men",
+     "x": 770,
+     "y": 700,
+     "t0": 0.36,
+     "size": 26
+    },
+    {
+     "type": "caption",
+     "text": "*survived*",
+     "t0": 2.15,
+     "y": 860
+    }
+   ]
+  },
+  {
+   "start": 109.85,
+   "end": 115.81,
+   "bg": {
+    "mode": "paper"
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08
+   },
+   "elements": [
+    {
+     "type": "doccard",
+     "x": 960,
+     "y": 560,
+     "w": 640,
+     "h": 760,
+     "header": "1821 \u00b7 Owen Chase, first mate",
+     "title": "Narrative of the\nshipwreck of the\nwhale-ship Essex",
+     "footer": "A true account",
+     "t0": 0
+    },
+    {
+     "type": "tag",
+     "text": "Herman Melville",
+     "t0": 2.97
+    },
+    {
+     "type": "circle",
+     "x": 960,
+     "y": 270,
+     "rx": 290,
+     "ry": 50,
+     "t0": 5.12
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 115.81,
+   "end": 122.11,
+   "bg": {
+    "mode": "paper"
+   },
+   "camera": {
+    "zoomFrom": 1.02,
+    "zoomTo": 1.1
+   },
+   "elements": [
+    {
+     "type": "doccard",
+     "x": 960,
+     "y": 540,
+     "w": 600,
+     "h": 740,
+     "rotate": 2,
+     "header": "1851 \u00b7 Herman Melville",
+     "title": "Moby-Dick\nor, the whale",
+     "footer": "A novel",
+     "t0": 0
+    },
+    {
+     "type": "tag",
+     "text": "1851",
+     "t0": 0.95
+    },
+    {
+     "type": "stamp",
+     "text": "Based on the Essex",
+     "x": 1280,
+     "y": 820,
+     "size": 42,
+     "color": "#3ecf6a",
+     "t0": 4.85
+    }
+   ]
+  },
+  {
+   "start": 122.11,
+   "end": 125.34,
+   "bg": {
+    "depth": 0.95,
+    "rays": false,
+    "spotlight": {
+     "x": 1100,
+     "w": 380
+    }
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.1,
+    "x": 1100
+   },
+   "elements": [
+    {
+     "type": "creature",
+     "kind": "whale",
+     "x": 1250,
+     "y": 620,
+     "scale": 1.4,
+     "flip": true,
+     "swim": {
+      "vx": -60
+     },
+     "mode": "silhouette"
+    },
+    {
+     "type": "caption",
+     "text": "!no one knows!",
+     "t0": 2.53
+    }
+   ],
+   "fadeIn": 0.5
+  },
+  {
+   "start": 125.34,
+   "end": 136.56,
+   "bg": {
+    "depth": 1,
+    "rays": false
+   },
+   "camera": {
+    "zoomFrom": 1,
+    "zoomTo": 1.08
+   },
+   "elements": [
+    {
+     "type": "factstack",
+     "size": 27,
+     "x": 560,
+     "y": 400,
+     "w": 800,
+     "gap": 84,
+     "items": [
+      {
+       "text": "Defending its pod?",
+       "t0": 0.38
+      },
+      {
+       "text": "Provoked by the noise?",
+       "t0": 3.88
+      },
+      {
+       "text": "Or did it mean to?",
+       "t0": 7.15,
+       "tone": "red"
+      }
+     ]
+    },
+    {
+     "type": "stamp",
+     "text": "Never explained",
+     "x": 960,
+     "y": 860,
+     "size": 48,
+     "t0": 9.321416666666666
+    }
+   ],
+   "fadeOut": 1.4
+  }
+ ]
+}
