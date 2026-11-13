@@ -1,0 +1,5 @@
+node_modules/
+package-lock.json
+test-render.mp4
+*.silent.mp4
+.kz-*/
