@@ -160,7 +160,8 @@ def medusa():
     @shot(["When the hero Perseus cut off her head, the winged horse Pegasus sprang from her neck."], chapter=True)
     def _(T):
         return (AEGEAN, {"zoomFrom": 1, "zoomTo": 1.12},
-                [svg(wing(CX, 600, 1.0), t0=T.w(0, "Pegasus") - .3),
+                [svg(face(CX, 600, .9, snakes=True, glow=True), t1=T.w(0, "Pegasus") - .3), cap("cut off her *head*", T.w(0, "cut"), y=290, size=46, t1=T.w(0, "Pegasus") - .3),
+                 svg(wing(CX, 600, 1.0), t0=T.w(0, "Pegasus") - .3),
                  {"type": "pill", "text": "Perseus", "x": 700, "y": 170, "size": 28, "t0": T.w(0, "Perseus")},
                  {"type": "namecard", "title": "PEGASUS", "sub": "Born from Medusa", "x": CX, "y": 900, "w": 380, "t0": T.w(0, "Pegasus")},
                  cap("from her *neck*", T.w(0, "neck"), y=290, size=48)])
